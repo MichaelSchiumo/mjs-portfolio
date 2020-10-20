@@ -10,7 +10,7 @@ const IconBar = () => {
         <div class='grid grid-cols-3 gap-10 lg:gap-2'>
           <div class='col-span-1 flex justify-center'>
             <a
-              href='https://www.linkedin.com/in/cindy-kei/'
+              href='https://www.linkedin.com/in/michael-john-schiumo-7860b668/'
               target='_blank'
               rel='noopener noreferrer'
               className='icons-bar'
@@ -20,7 +20,7 @@ const IconBar = () => {
           </div>
           <div class='col-span-1 flex justify-center'>
             <a
-              href='https://github.com/myk245'
+              href='https://github.com/MichaelSchiumo'
               target='_blank'
               rel='noopener noreferrer'
               className='icons-bar'
@@ -30,7 +30,7 @@ const IconBar = () => {
           </div>
           <div class='col-span-1 flex justify-center'>
             <a
-              href='https://twitter.com/KeiCindy'
+              href='mailto:michaeljanschiumo@gmail.com'
               target='_blank'
               rel='noopener noreferrer'
               className='icons-bar'
