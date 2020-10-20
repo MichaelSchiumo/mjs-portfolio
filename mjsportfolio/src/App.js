@@ -3,6 +3,7 @@ import './styles/main.css';
 import Navbar from './components/Navbar.js';
 import { Route, Switch } from 'react-router-dom';
 import Welcome from './components/Welcome.js';
+import IconBar from './components/IconBar.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Welcome} />
       </Switch>
+      <IconBar />
     </div>
   );
 }
