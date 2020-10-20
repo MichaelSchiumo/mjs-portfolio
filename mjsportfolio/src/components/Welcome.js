@@ -21,7 +21,6 @@ const Welcome = () => {
           </div>
         </div>
       </div>
-      <IconBar />
     </div>
   );
 };
