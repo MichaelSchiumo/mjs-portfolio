@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../images/logo.png';
 
 const Navbar = () => {
   return (
@@ -25,7 +26,6 @@ const Navbar = () => {
                   d='M4 6h16M4 12h16M4 18h16'
                 />
               </svg>
-
               <svg
                 className='hidden h-6 w-6'
                 xmlns='http://www.w3.org/2000/svg'
@@ -45,14 +45,14 @@ const Navbar = () => {
           <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-start'>
             <div className='flex-shrink-0'>
               <img
-                className='block lg:hidden h-8 w-auto'
-                src='https://tailwindui.com/img/logos/workflow-mark-on-dark.svg'
-                alt='Workflow logo'
+                className='block lg:hidden h-10 w-auto'
+                src={logo}
+                alt='MJS logo'
               />
               <img
-                className='hidden lg:block h-8 w-auto'
-                src='https://tailwindui.com/img/logos/workflow-logo-on-dark.svg'
-                alt='Workflow logo'
+                className='hidden lg:block h-12 w-auto'
+                src={logo}
+                alt='MJS logo'
               />
             </div>
             <div className='hidden sm:block sm:ml-6'>
@@ -61,13 +61,13 @@ const Navbar = () => {
                   href='www.hellomixy.com'
                   className='px-3 py-2 rounded-md text-sm font-medium leading-5 text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out'
                 >
-                  Dashboard
+                  About
                 </a>
                 <a
                   href='www.hellomixy.com'
                   className='ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out'
                 >
-                  Team
+                  Experience
                 </a>
                 <a
                   href='www.hellomixy.com'
@@ -79,7 +79,13 @@ const Navbar = () => {
                   href='www.hellomixy.com'
                   className='ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out'
                 >
-                  Calendar
+                  Education
+                </a>
+                <a
+                  href='www.hellomixy.com'
+                  className='ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out'
+                >
+                  Contact
                 </a>
               </div>
             </div>
