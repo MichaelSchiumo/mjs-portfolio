@@ -4,7 +4,7 @@ import './index.css';
 import Navbar from './components/Navbar.js';
 import { Route, Switch } from 'react-router-dom';
 import Welcome from './components/Welcome.js';
-import Education from './components/Education.js';
+import Education2 from './components/Education2.js';
 import IconBar from './components/IconBar.js';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <div id='body'>
         <Switch>
           <Route exact path='/' component={Welcome} />
-          <Route path='/education' component={Education} />
+          <Route path='/education' component={Education2} />
         </Switch>
       </div>
     </div>
