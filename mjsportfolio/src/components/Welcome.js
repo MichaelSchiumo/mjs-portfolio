@@ -4,11 +4,11 @@ import title from '../images/title.gif';
 
 const Welcome = () => {
   return (
-    <div>
-      <div class='grid grid-cols-1 gap-4 justify-items-center p-2 h-36 mt-6 lg:p-0'>
-        <img src={title} alt='' />
+    <div id='container'>
+      <div class='grid grid-cols-1 gap-4 justify-items-center p-2 h-24 mt-6 lg:p-0'>
+        <img src={title} alt='' width='320' height='145' />
         <div className='bg-white'>
-          <div className='max-w-screen-xl mx-auto py-16 px-4 sm:py-24 sm:px-6 sm:-mt-16 lg:px-8 lg:-mt-24'>
+          <div className='max-w-screen-xl mx-auto py-2 px-4 sm:py-24 sm:px-6 lg:px-8'>
             <div className='text-center grid grid-cols-1'>
               <h1 className='text-base leading-6 font-bold text-indigo-600 tracking-wide uppercase text-xl'>
                 Full Stack Engineer

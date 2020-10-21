@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/main.css';
+import './index.css';
 import Navbar from './components/Navbar.js';
 import { Route, Switch } from 'react-router-dom';
 import Welcome from './components/Welcome.js';
@@ -10,11 +11,13 @@ function App() {
   return (
     <div className='App'>
       <Navbar sticky='top' />
-      <Switch>
-        <Route exact path='/' component={Welcome} />
-        <Route path='/education' component={Education} />
-      </Switch>
-      <IconBar fixed='bottom' />
+      <div id='body'>
+        <Switch>
+          <Route exact path='/' component={Welcome} />
+          <Route path='/education' component={Education} />
+        </Switch>
+      </div>
+      <IconBar />
     </div>
   );
 }

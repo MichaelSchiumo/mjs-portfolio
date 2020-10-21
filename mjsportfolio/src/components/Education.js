@@ -1,9 +1,14 @@
 import React from 'react';
+import Finance from './edu/Finance.js';
+import IconBar from './IconBar';
 
 const Education = () => {
   return (
     <div>
-      <div class='grid grid-cols-1 gap-4 justify-items-center p-2 h-36 mt-6 lg:p-0'>
+      <div
+        id='container'
+        class='grid grid-cols-1 gap-4 justify-items-center p-2 h-36 mt-6 lg:p-0'
+      >
         <div className='bg-white'>
           <div className='lg:w-3/4 mx-auto py-16 px-4 sm:py-24 sm:px-6 sm:-mt-16 lg:px-8 lg:-mt-24'>
             <div className='text-center grid grid-cols-1'>
@@ -15,6 +20,15 @@ const Education = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div id='container'>
+        <Finance />
+      </div>
+      <div id='container'>
+        <Finance />
+      </div>
+      <div id='container'>
+        <Finance />
       </div>
     </div>
   );
