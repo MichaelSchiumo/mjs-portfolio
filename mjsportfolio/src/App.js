@@ -17,7 +17,6 @@ function App() {
           <Route path='/education' component={Education} />
         </Switch>
       </div>
-      <IconBar />
     </div>
   );
 }

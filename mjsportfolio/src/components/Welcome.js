@@ -6,9 +6,9 @@ const Welcome = () => {
   return (
     <div id='container'>
       <div class='grid grid-cols-1 gap-4 justify-items-center p-2 h-24 mt-6 lg:p-0'>
-        <img src={title} alt='' width='320' height='145' />
+        <img src={title} alt='' width='360' height='160' />
         <div className='bg-white'>
-          <div className='max-w-screen-xl mx-auto py-2 px-4 sm:py-24 sm:px-6 lg:px-8'>
+          <div className='max-w-screen-xl mx-auto py-2 px-4  lg:px-8'>
             <div className='text-center grid grid-cols-1'>
               <h1 className='text-base leading-6 font-bold text-indigo-600 tracking-wide uppercase text-xl'>
                 Full Stack Engineer
@@ -21,6 +21,7 @@ const Welcome = () => {
           </div>
         </div>
       </div>
+      <IconBar />
     </div>
   );
 };
