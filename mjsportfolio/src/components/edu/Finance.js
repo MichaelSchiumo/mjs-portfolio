@@ -19,17 +19,20 @@ const Finance = () => {
           <h2 class='mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10 font-legal'>
             Finance
           </h2>
+
           <div class='mt-3 text-lg leading-7 text-gray-300'>
             <div className='font-serif text-lg'>
               <ul class='list-disc'>
+                <li>Graduated Cum Laude.</li>
+                <li>Achieved Dean's List for every eligible semester.</li>
+                <li>Member of TCNJ Varsity Men's Soccer.</li>
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Member of Beta Alpha Psi Honor Society for Students of
+                  Finance.
                 </li>
                 <li>
-                  Et, egestas tempus tellus etiam sed. Quam a scelerisque amet
-                </li>
-                <li>
-                  ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
+                  Member of Delta Sigma Pi, America's Foremost Business
+                  Fraternity.
                 </li>
               </ul>
             </div>
