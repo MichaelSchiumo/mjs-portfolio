@@ -13,9 +13,9 @@ const Education2 = () => {
         <div className='bg-white -mb-10'>
           <div className='lg:w-3/4 mx-auto py-16 px-4 sm:py-24 sm:px-6 sm:-mt-16 lg:px-8 lg:-mt-40'>
             <div className='text-center grid grid-cols-1'>
-              <div class='quote--container'>
-                <p class='quote'>
-                  “Education is the most powerful weapon which you can use to
+              <div class='quote--container bg-gray-100'>
+                <p class='quote italic'>
+                  “Education is the most powerful weapon which you can use to{' '}
                   <span class='quote--highlight'>change the world</span>.”
                 </p>
                 <p class='quote--author'>&ndash; Nelson Mandela</p>
