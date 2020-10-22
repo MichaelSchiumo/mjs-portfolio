@@ -235,7 +235,7 @@ const Experience = () => {
         </div>
       </div>
       <div>
-        <div className='text-center'>
+        <div className='text-center text-white'>
           <div>
             <Divider />
             <br></br>
@@ -245,7 +245,7 @@ const Experience = () => {
               rel='noopener noreferrer'
               className='icons-bar'
             >
-              <LinkedInIcon fontSize='large' />
+              <LinkedInIcon className='text-white' fontSize='large' />
             </a>
             <a
               href='https://github.com/Michaelschiumo'
@@ -253,7 +253,7 @@ const Experience = () => {
               rel='noopener noreferrer'
               className='icons-bar'
             >
-              <GitHubIcon fontSize='large' />
+              <GitHubIcon className='text-white' fontSize='large' />
             </a>
             <a
               href='mailto:michaeljanschiumo@gmail.com'
@@ -261,7 +261,7 @@ const Experience = () => {
               rel='noopener noreferrer'
               className='icons-bar'
             >
-              <EmailIcon fontSize='large' />
+              <EmailIcon className='text-white' fontSize='large' />
             </a>
           </div>
           <h1 className='lg:mt-4'>Stay Connected</h1>
