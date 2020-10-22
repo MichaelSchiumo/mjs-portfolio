@@ -3,7 +3,7 @@ import flatiron from '../../images/flatiron-logo.jpg';
 
 const Flatiron = () => {
   return (
-    <div class='relative bg-gray-800 hover:bg-gray-700 -mt-6'>
+    <div class='relative bg-gray-800 hover:bg-gray-700'>
       <div class='h-12 bg-white md:absolute md:h-full md:w-1/2'>
         <img
           class='w-1/2 h-1/2 object-cover ml-32 p-10'
