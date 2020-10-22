@@ -258,7 +258,6 @@ const Experience = () => {
                       <ul class='flex justify-center space-x-5'></ul>
                     </div>
                   </div>
-
                   <div className='text-white mt-4'>
                     <ul className='list-disc'>
                       <li className='p-2'>
@@ -296,7 +295,9 @@ const Experience = () => {
                     </a>
                     <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
                       <div class='font-medium text-lg leading-6 space-y-1'>
-                        <h4 class='text-white'>Economic Policy Intern</h4>
+                        <h4 class='text-white'>
+                          Economic Policy / Translation
+                        </h4>
                         <p class='text-indigo-400'>
                           American Chamber of Commerce
                         </p>
@@ -311,7 +312,44 @@ const Experience = () => {
                 </li>
               </FrontSide>
               <BackSide>
-                <div>h</div>
+                <li class='py-4 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                  <div class='space-y-6 xl:space-y-10'>
+                    <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
+                      <div class='font-medium text-lg leading-6 space-y-1'>
+                        <h4 class='text-white'>01/15 - 08/15</h4>
+                        <p class='text-indigo-400'>Almaty, Kazakhstan</p>
+                      </div>
+                      <ul class='flex justify-center space-x-5'></ul>
+                    </div>
+                  </div>
+                  <div className='text-white mt-4'>
+                    <ul className='list-disc'>
+                      <li className='p-1'>
+                        Conducted research on Tax Code and Accounting Practices
+                        following the 2014 Tax Overhaul in Kazakhstan, updating
+                        practices for more accessibility in international
+                        markets and Foreign Direct Investment.
+                      </li>
+                      <li className='p-1'>
+                        Facilitated biweekly meetings with top executives
+                        concerning stimulation of the budding Kazakh business
+                        climate.
+                      </li>
+                      <li className='p-1'>
+                        Wrote and translated articles for Investors' Voice,
+                        focusing on Energy
+                      </li>
+                    </ul>
+                  </div>
+                  <div className='text-center mt-4 text-white'>
+                    <a
+                      href='http://amcham.kz/publications'
+                      className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
+                    >
+                      Visit AmCham
+                    </a>
+                  </div>
+                </li>
               </BackSide>
             </Flippy>
             <Flippy
