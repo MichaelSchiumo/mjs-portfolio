@@ -19,7 +19,8 @@ const Projects = () => {
             Original Applications
           </h2>
           <p class='mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-700 sm:mt-4'>
-            I strive to build applications that prioritize User Experience and
+            I strive to build applications that prioritize User Experience (UX)
+            and <br />
             seamless design.
           </p>
         </div>
