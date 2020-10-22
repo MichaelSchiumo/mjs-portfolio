@@ -5,6 +5,11 @@ import bofa2 from '../../images/bofa2.jpg';
 import amcham from '../../images/amcham.jpg';
 import vivint from '../../images/vivint.png';
 import ameriprise from '../../images/ameriprise.jpg';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from '@material-ui/icons/Email';
+
+import { Divider } from '@material-ui/core';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Experience = () => {
   return (
@@ -227,6 +232,39 @@ const Experience = () => {
               </div>
             </li>
           </ul>
+        </div>
+      </div>
+      <div>
+        <div className='text-center'>
+          <div>
+            <Divider />
+            <br></br>
+            <a
+              href='https://www.linkedin.com/in/michael-john-schiumo-7860b668/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='icons-bar'
+            >
+              <LinkedInIcon fontSize='large' />
+            </a>
+            <a
+              href='https://github.com/Michaelschiumo'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='icons-bar'
+            >
+              <GitHubIcon fontSize='large' />
+            </a>
+            <a
+              href='mailto:michaeljanschiumo@gmail.com'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='icons-bar'
+            >
+              <EmailIcon fontSize='large' />
+            </a>
+          </div>
+          <h1 className='lg:mt-4'>Stay Connected</h1>
         </div>
       </div>
     </div>
