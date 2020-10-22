@@ -186,7 +186,11 @@ const Experience = () => {
                 <div>i</div>
               </BackSide>
             </Flippy>
-            <Flippy>
+            <Flippy
+              flipOnHover={false}
+              flipOnClick={true}
+              flipDirection='horizontal'
+            >
               <FrontSide>
                 <li class='py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
@@ -257,7 +261,7 @@ const Experience = () => {
                       </ul>
                     </div>
                     <div className='text-center'>
-                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center lg:-mt-4'>
+                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center lg:mt-4'>
                         See More
                       </button>
                     </div>
