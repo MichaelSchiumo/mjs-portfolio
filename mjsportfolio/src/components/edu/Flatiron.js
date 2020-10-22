@@ -3,7 +3,7 @@ import flatiron from '../../images/flatiron-logo.jpg';
 
 const Flatiron = () => {
   return (
-    <div class='relative bg-gray-800 hover:bg-gray-700'>
+    <div class='relative bg-gray-800'>
       <div class='h-12 bg-white md:absolute md:h-full md:w-1/2'>
         <img
           class='w-1/2 h-1/2 object-cover ml-32 p-10'
@@ -22,21 +22,31 @@ const Flatiron = () => {
           <div class='mt-3 text-lg leading-7 text-gray-300'>
             <div className='font-serif text-lg'>
               <ul class='list-disc'>
+                <li>Full Stack Web Development.</li>
                 <li>
-                  Boren Scholar, Russian Language and International Business.
+                  Built Original Web Applications utilizing JavaScript and Ruby.
                 </li>
-                <li>Academic Excellence Award Winner, TCNJ</li>
-                <li>
-                  Russian Scholar Laureate, American Council of Teachers of
-                  Russian
-                </li>
-                <li>Founder and President, TCNJ Russian Club</li>
               </ul>
             </div>
           </div>
           <div class='mt-8'>
             <div class='inline-flex rounded-md shadow'>
-              put view button for resume
+              <button
+                class='
+                bg-transparent
+                hover:bg-blue-500
+                text-blue-700
+                font-semibold
+                hover:text-white
+                py-2
+                px-4
+                border
+                border-blue-500
+                hover:border-transparent
+                rounded'
+              >
+                View Projects
+              </button>
             </div>
           </div>
         </div>

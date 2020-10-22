@@ -26,7 +26,6 @@ const Navbar = () => {
                   d='M4 6h16M4 12h16M4 18h16'
                 />
               </svg>
-
               <svg
                 className='hidden h-6 w-6'
                 xmlns='http://www.w3.org/2000/svg'
@@ -66,7 +65,7 @@ const Navbar = () => {
                   href='#'
                   className='px-3 py-2 rounded-md text-sm font-medium leading-5 text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out'
                 >
-                  Dashboard
+                  Home
                 </a>
                 <a
                   href='/education'

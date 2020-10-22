@@ -11,7 +11,7 @@ const Education2 = () => {
         class='grid grid-cols-1 gap-4 justify-items-center p-2 h-36 mt-6 lg:p-0'
       >
         <div className='bg-white -mb-10'>
-          <div className='lg:w-3/4 mx-auto py-16 px-4 sm:py-24 sm:px-6 sm:-mt-16 lg:px-8 lg:-mt-40'>
+          <div className='lg:w-3/4 mx-auto py-16 px-4 sm:py-24 sm:px-6 -mt-16 lg:px-8 lg:-mt-40'>
             <div className='text-center grid grid-cols-1'>
               <div class='quote--container bg-gray-100'>
                 <p class='quote italic'>
