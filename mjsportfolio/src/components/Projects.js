@@ -4,10 +4,8 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import cuisineCurator from '../images/cuisine-curator.png';
 import aspirationStation from '../images/aspiration-station.png';
 import LogoCloud from './LogoCloud.js';
-import IconBar from './IconBar.js';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import { Divider } from '@material-ui/core';
 
 const Projects = () => {
@@ -214,7 +212,7 @@ const Projects = () => {
       <div className='lg:-mb-64'>
         <LogoCloud />
       </div>
-      <div className='lg:mt-40 text-center'>
+      <div className='lg:mt-64 text-center'>
         <div>
           <Divider />
           <br></br>
