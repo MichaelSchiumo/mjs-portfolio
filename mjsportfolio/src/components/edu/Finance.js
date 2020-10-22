@@ -4,9 +4,9 @@ import tcnj from '../../images/tcnj-logo.png';
 const Finance = () => {
   return (
     <div class='relative bg-gray-800 hover:bg-gray-900 rounded-t-lg'>
-      <div class='h-12 bg-white md:absolute md:h-full md:w-1/2'>
+      <div class='h-12 md:absolute md:h-full md:w-1/2'>
         <img
-          class='w-1/2 h-1/2 object-cover ml-32 '
+          class='w-1/2 h-1/2 object-contain ml-32'
           src={tcnj}
           alt='Support team'
         />

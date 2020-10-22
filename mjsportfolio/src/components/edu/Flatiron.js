@@ -1,12 +1,12 @@
 import React from 'react';
-import flatiron from '../../images/flatiron-logo.jpg';
+import flatiron from '../../images/flatiron-logo.png';
 
 const Flatiron = () => {
   return (
     <div class='relative bg-gray-800 hover:bg-gray-900 rounded-t-lg'>
-      <div class='h-12 bg-white md:absolute md:h-full md:w-1/2'>
+      <div class='md:absolute md:h-full md:w-1/2 h-12'>
         <img
-          class='w-1/2 h-1/2 object-cover ml-32 p-10'
+          class='object-contain w-full h-full fill-current p-4 -ml-12'
           src={flatiron}
           alt='Support team'
         />
