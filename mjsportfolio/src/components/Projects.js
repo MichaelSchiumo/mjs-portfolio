@@ -29,7 +29,7 @@ const Projects = () => {
             <div class='flex-shrink-0'>
               <img class='h-48 w-full object-cover' src={githubFinder} alt='' />
             </div>
-            <div class='flex-1 bg-white p-6 flex flex-col justify-between'>
+            <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
               <div class='flex-1'>
                 <p class='text-sm leading-5 font-medium text-indigo-600'>
                   <a href='#' class='hover:underline'>
@@ -92,7 +92,7 @@ const Projects = () => {
                 alt=''
               />
             </div>
-            <div class='flex-1 bg-white p-6 flex flex-col justify-between'>
+            <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
               <div class='flex-1'>
                 <p class='text-sm leading-5 font-medium text-indigo-600'>
                   <a href='#' class='hover:underline'>
@@ -155,7 +155,7 @@ const Projects = () => {
                 alt=''
               />
             </div>
-            <div class='flex-1 bg-white p-6 flex flex-col justify-between'>
+            <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
               <div class='flex-1'>
                 <p class='text-sm leading-5 font-medium text-indigo-600'>
                   <a href='#' class='hover:underline'>
