@@ -55,3 +55,8 @@ code {
   text-align: right;
   font-weight: 300;
 }
+
+.icons-bar {
+  color: black;
+  padding: 20px;
+}

@@ -4,10 +4,15 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import cuisineCurator from '../images/cuisine-curator.png';
 import aspirationStation from '../images/aspiration-station.png';
 import LogoCloud from './LogoCloud.js';
+import IconBar from './IconBar.js';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from '@material-ui/icons/Email';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import { Divider } from '@material-ui/core';
 
 const Projects = () => {
   return (
-    <div class='relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8 lg:-mt-12'>
+    <div class='relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8 lg:-mt-6'>
       <div class='relative max-w-7xl mx-auto'>
         <div class='text-center'>
           <h2 class='text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10'>
@@ -208,7 +213,37 @@ const Projects = () => {
       <div className='lg:-mb-64'>
         <LogoCloud />
       </div>
-      <div></div>
+      <div className='lg:mt-40 text-center'>
+        <div>
+          <Divider />
+          <br></br>
+          <a
+            href='https://www.linkedin.com/in/michael-john-schiumo-7860b668/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='icons-bar'
+          >
+            <LinkedInIcon fontSize='large' />
+          </a>
+          <a
+            href='https://github.com/Michaelschiumo'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='icons-bar'
+          >
+            <GitHubIcon fontSize='large' />
+          </a>
+          <a
+            href='mailto:michaeljanschiumo@gmail.com'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='icons-bar'
+          >
+            <EmailIcon fontSize='large' />
+          </a>
+        </div>
+        <h1 className='lg:mt-4'>Stay Connected</h1>
+      </div>
     </div>
   );
 };
