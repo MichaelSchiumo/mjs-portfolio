@@ -7,6 +7,7 @@ import vivint from '../../images/vivint.png';
 import ameriprise from '../../images/ameriprise.jpg';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
+import { Link } from 'react-router-dom';
 
 import { Divider } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -233,6 +234,17 @@ const Experience = () => {
             </li>
           </ul>
         </div>
+      </div>
+      <div className='text-center mb-10 -mt-10'>
+        <Link
+          className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
+          to='resume.pdf'
+          target='_blank'
+          download
+          id='button'
+        >
+          Download Resume
+        </Link>
       </div>
       <div>
         <div className='text-center text-white'>
