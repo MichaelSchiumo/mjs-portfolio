@@ -7,6 +7,7 @@ import vivint from '../../images/vivint.png';
 import ameriprise from '../../images/ameriprise.jpg';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
+import expo from '../../images/expo.jpg';
 import { Link } from 'react-router-dom';
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
@@ -75,7 +76,38 @@ const Experience = () => {
                 </li>
               </FrontSide>
               <BackSide>
-                <div>i</div>
+                <li class='py-4 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                  <div class='space-y-6 xl:space-y-10'>
+                    <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
+                      <div class='font-medium text-lg leading-6 space-y-1'>
+                        <h4 class='text-white'>07/20 - Present</h4>
+                        <p class='text-indigo-400'>Plano, TX (Remote)</p>
+                      </div>
+                      <ul class='flex justify-center space-x-5'></ul>
+                    </div>
+                  </div>
+
+                  <div className='text-white mt-4'>
+                    <ul className='list-disc'>
+                      <li className='p-1'>
+                        Implement UI features that leverage third-party
+                        integrations, such as Stripe, Shopify, and AWS, to
+                        provide a harmonious User Experience (UX) for Mixy
+                        customers and clients operating in the Health Food
+                        Industry.
+                      </li>
+                      <li className='p-1'>
+                        Extend existing backend functionality with Rails for
+                        managing customer data, transactions, and Cloud
+                        technology.
+                      </li>
+                      <li className='p-1'>
+                        Design customized features on the frontend using React
+                        and tailored components from Tailwind CSS.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
               </BackSide>
             </Flippy>
             <Flippy
@@ -130,7 +162,40 @@ const Experience = () => {
                 </li>
               </FrontSide>
               <BackSide>
-                <div>i</div>
+                <li class='py-4 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                  <div class='space-y-6 xl:space-y-10'>
+                    <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
+                      <div class='font-medium text-lg leading-6 space-y-1'>
+                        <h4 class='text-white'>05/17 - 09/17</h4>
+                        <p class='text-indigo-400'>Astana, Kazakhstan</p>
+                      </div>
+                      <ul class='flex justify-center space-x-5'></ul>
+                    </div>
+                  </div>
+                  <div className='text-white mt-4'>
+                    <ul className='list-disc'>
+                      <li className='p-2'>
+                        Employed language skills and knowledge of energy
+                        technologies to educate nearly 3.9 million guests in
+                        Russian, English, and Kazakh, increasing understanding
+                        of energy policy as related to the US.
+                      </li>
+                      <li className='p-2'>
+                        Collaborated with Ambassador Krol, executives, and
+                        stakeholders of the Pavilion to improve operations and
+                        team cohesiveness.
+                      </li>
+                    </ul>
+                  </div>
+                  <div className='text-center mt-4 text-white'>
+                    <a
+                      href='http://www.usapavilion2017.org/first-impressions-of-the-worlds-fair-what-expo-means-to-me/index.html'
+                      className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
+                    >
+                      Visit USAP
+                    </a>
+                  </div>
+                </li>
               </BackSide>
             </Flippy>
             <Flippy
