@@ -74,7 +74,9 @@ const Experience = () => {
                   </div>
                 </li>
               </FrontSide>
-              <BackSide></BackSide>
+              <BackSide>
+                <div>i</div>
+              </BackSide>
             </Flippy>
             <li class='py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
               <div class='space-y-6 xl:space-y-10'>
