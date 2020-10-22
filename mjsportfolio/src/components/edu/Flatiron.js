@@ -22,9 +22,9 @@ const Flatiron = () => {
           <div class='mt-3 text-lg leading-7 text-gray-300'>
             <div className='font-serif text-lg'>
               <ul class='list-disc'>
-                <li>Full Stack Web Development.</li>
+                <li>Full Stack Web Development</li>
                 <li>
-                  Built Original Web Applications utilizing JavaScript and Ruby.
+                  Built Original Web Applications utilizing JavaScript and Ruby
                 </li>
               </ul>
             </div>

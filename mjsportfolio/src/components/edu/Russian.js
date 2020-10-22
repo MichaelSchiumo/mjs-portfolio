@@ -23,7 +23,7 @@ const Russian = () => {
             <div className='font-serif text-lg'>
               <ul class='list-disc'>
                 <li>
-                  Boren Scholar, Russian Language and International Business.
+                  Boren Scholar, Russian Language and International Business
                 </li>
                 <li>Academic Excellence Award Winner, TCNJ</li>
                 <li>
