@@ -248,7 +248,35 @@ const Experience = () => {
                 </li>
               </FrontSide>
               <BackSide>
-                <div>i</div>
+                <li class='py-4 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                  <div class='space-y-6 xl:space-y-10'>
+                    <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
+                      <div class='font-medium text-lg leading-6 space-y-1'>
+                        <h4 class='text-white'>06/16 - 09/16</h4>
+                        <p class='text-indigo-400'>New York, NY</p>
+                      </div>
+                      <ul class='flex justify-center space-x-5'></ul>
+                    </div>
+                  </div>
+
+                  <div className='text-white mt-4'>
+                    <ul className='list-disc'>
+                      <li className='p-2'>
+                        Managed divisional Profit & Loss (P&L) schedules for CFO
+                        to determine proper asset allocation in future quarters.
+                      </li>
+                      <li className='p-2'>
+                        Focused on revenues and expenses of the Wealth
+                        Management segment to furnish comprehensive reports.
+                      </li>
+                      <li className='p-2'>
+                        Attended 5-10 Revenue Roundtables with Wealth Management
+                        business executives, garnering greater understanding of
+                        high-level organizational and bank-wide goals.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
               </BackSide>
             </Flippy>
             <Flippy
