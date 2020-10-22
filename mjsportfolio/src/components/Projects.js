@@ -212,7 +212,7 @@ const Projects = () => {
       <div className='lg:-mb-64'>
         <LogoCloud />
       </div>
-      <div className='lg:mt-64 text-center'>
+      <div className='lg:mt-64 lg:-mb-10 text-center'>
         <div>
           <Divider />
           <br></br>
