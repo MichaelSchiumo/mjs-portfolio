@@ -31,7 +31,7 @@ const Flatiron = () => {
           </div>
           <div class='mt-8'>
             <div class='inline-flex rounded-md shadow'>
-              <button
+              <a
                 class='
                 bg-transparent
                 hover:bg-blue-500
@@ -44,9 +44,10 @@ const Flatiron = () => {
                 border-blue-500
                 hover:border-transparent
                 rounded'
+                href='/projects'
               >
                 View Projects
-              </button>
+              </a>
             </div>
           </div>
         </div>

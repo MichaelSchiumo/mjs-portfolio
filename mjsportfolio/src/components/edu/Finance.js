@@ -3,7 +3,7 @@ import tcnj from '../../images/tcnj-logo.png';
 
 const Finance = () => {
   return (
-    <div class='relative bg-gray-800 hover:bg-gray-700'>
+    <div class='relative bg-gray-800'>
       <div class='h-12 bg-white md:absolute md:h-full md:w-1/2'>
         <img
           class='w-1/2 h-1/2 object-cover ml-32 '
@@ -39,7 +39,23 @@ const Finance = () => {
           </div>
           <div class='mt-8'>
             <div class='inline-flex rounded-md shadow'>
-              put view button for resume
+              <a
+                class='
+                bg-transparent
+                hover:bg-blue-500
+                text-blue-700
+                font-semibold
+                hover:text-white
+                py-2
+                px-4
+                border
+                border-blue-500
+                hover:border-transparent
+                rounded'
+                href='https://business.tcnj.edu/2017/06/26/alumnus-participates-in-international-future-energy-exposition/'
+              >
+                View Achievements
+              </a>
             </div>
           </div>
         </div>

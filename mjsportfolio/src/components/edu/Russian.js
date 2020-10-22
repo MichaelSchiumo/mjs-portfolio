@@ -3,7 +3,7 @@ import tcnj from '../../images/tcnj-logo.png';
 
 const Russian = () => {
   return (
-    <div class='relative bg-gray-800 hover:bg-gray-700'>
+    <div class='relative bg-gray-800'>
       <div class='h-12 bg-white md:absolute md:h-full md:w-1/2'>
         <img
           class='w-1/2 h-1/2 object-cover ml-32 -mt-16'
@@ -31,12 +31,29 @@ const Russian = () => {
                   Russian
                 </li>
                 <li>Founder and President, TCNJ Russian Club</li>
+                <li>Published Original Capstone, Kindle Unlimited, 2018</li>
               </ul>
             </div>
           </div>
           <div class='mt-8'>
             <div class='inline-flex rounded-md shadow'>
-              put view button for resume
+              <a
+                class='
+                bg-transparent
+                hover:bg-blue-500
+                text-blue-700
+                font-semibold
+                hover:text-white
+                py-2
+                px-4
+                border
+                border-blue-500
+                hover:border-transparent
+                rounded'
+                href='https://www.amazon.com/Resource-Curse-Russias-Greatest-Blessing-ebook/dp/B07BTLC43P/ref=sr_1_3?dchild=1&keywords=schiumo&qid=1603377480&sr=8-3'
+              >
+                View Capstone
+              </a>
             </div>
           </div>
         </div>
