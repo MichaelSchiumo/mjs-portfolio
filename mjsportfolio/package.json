@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-flippy": "^0.1.5",
     "react-scripts": "3.4.3"
   },
   "scripts": {
