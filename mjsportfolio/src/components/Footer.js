@@ -10,50 +10,42 @@ const Footer = () => {
         <nav class='-mx-5 -my-2 flex flex-wrap justify-center'>
           <div class='px-5 py-2'>
             <a
-              href='#'
+              href='/'
               class='text-base leading-6 text-gray-500 hover:text-gray-900'
             >
-              About
+              Home
             </a>
           </div>
           <div class='px-5 py-2'>
             <a
-              href='#'
+              href='/education'
+              class='text-base leading-6 text-gray-500 hover:text-gray-900'
+            >
+              Education
+            </a>
+          </div>
+          <div class='px-5 py-2'>
+            <a
+              href='/projects'
+              class='text-base leading-6 text-gray-500 hover:text-gray-900'
+            >
+              Projects
+            </a>
+          </div>
+          <div class='px-5 py-2'>
+            <a
+              href='/experience'
+              class='text-base leading-6 text-gray-500 hover:text-gray-900'
+            >
+              Experience
+            </a>
+          </div>
+          <div class='px-5 py-2'>
+            <a
+              href='/blog'
               class='text-base leading-6 text-gray-500 hover:text-gray-900'
             >
               Blog
-            </a>
-          </div>
-          <div class='px-5 py-2'>
-            <a
-              href='#'
-              class='text-base leading-6 text-gray-500 hover:text-gray-900'
-            >
-              Jobs
-            </a>
-          </div>
-          <div class='px-5 py-2'>
-            <a
-              href='#'
-              class='text-base leading-6 text-gray-500 hover:text-gray-900'
-            >
-              Press
-            </a>
-          </div>
-          <div class='px-5 py-2'>
-            <a
-              href='#'
-              class='text-base leading-6 text-gray-500 hover:text-gray-900'
-            >
-              Accessibility
-            </a>
-          </div>
-          <div class='px-5 py-2'>
-            <a
-              href='#'
-              class='text-base leading-6 text-gray-500 hover:text-gray-900'
-            >
-              Partners
             </a>
           </div>
         </nav>
