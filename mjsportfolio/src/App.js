@@ -7,6 +7,7 @@ import Welcome from './components/Welcome.js';
 import Education from './components/Education.js';
 import Projects from './components/Projects.js';
 import Experience from './components/experience/Experience.js';
+import Blog from './components/Blog.js';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/education' component={Education} />
           <Route path='/projects' component={Projects} />
           <Route path='/experience' component={Experience} />
+          <Route path='/blog' component={Blog} />
         </Switch>
       </div>
     </div>
