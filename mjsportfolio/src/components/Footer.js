@@ -58,15 +58,24 @@ const Footer = () => {
           </div>
         </nav>
         <div class='mt-8 flex justify-center space-x-6'>
-          <a href='#' class='text-gray-400 hover:text-gray-500'>
+          <a
+            href='https://www.linkedin.com/in/michael-john-schiumo-7860b668/'
+            class='text-gray-400 hover:text-gray-500'
+          >
             <span class='sr-only'>LinkedIn</span>
             <LinkedInIcon className='text-white' fontSize='large' />
           </a>
-          <a href='#' class='text-gray-400 hover:text-gray-500'>
+          <a
+            href='https://github.com/Michaelschiumo'
+            class='text-gray-400 hover:text-gray-500'
+          >
             <span class='sr-only'>GitHub</span>
             <GitHubIcon className='text-white' fontSize='large' />
           </a>
-          <a href='#' class='text-gray-400 hover:text-gray-500'>
+          <a
+            href='mailto:michaeljanschiumo@gmail.com'
+            class='text-gray-400 hover:text-gray-500'
+          >
             <span class='sr-only'>Email</span>
             <EmailIcon className='text-white' fontSize='large' />
           </a>
