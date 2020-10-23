@@ -81,7 +81,7 @@ const Footer = () => {
           </a>
         </div>
         <p class='mt-8 text-center text-base leading-6 text-gray-400'>
-          &copy; 2020 Workflow, Inc. All rights reserved.
+          &copy; 2020 Michael J. Schiumo. All rights reserved.
         </p>
       </div>
     </footer>

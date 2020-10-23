@@ -10,8 +10,8 @@ import { Divider } from '@material-ui/core';
 
 const Projects = () => {
   return (
-    <div class='relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8 lg:-mt-6'>
-      <div class='relative max-w-7xl mx-auto'>
+    <div class='relative bg-gray-50 pt-16 pb-20 sm:px-6 lg:px-0 lg:pt-24 lg:pb-28'>
+      <div class='relative max-w-7xl mx-auto px-4'>
         <div class='text-center'>
           <h2 class='text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10'>
             Original <span className='text-gray-700'>Applications</span>
@@ -22,7 +22,7 @@ const Projects = () => {
             seamless design.
           </p>
         </div>
-        <div class='mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none'>
+        <div class='mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none shadow-xl'>
           <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
             <div class='flex-shrink-0'>
               <img class='h-48 w-full object-cover' src={githubFinder} alt='' />
@@ -209,7 +209,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className='lg:w-full'>
+      <div className='lg:w-full lg:-mb-20'>
         <LogoCloud />
       </div>
     </div>
