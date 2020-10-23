@@ -1,5 +1,6 @@
 import React from 'react';
 import headshot from '../images/Headshot.jpg';
+import Typing from 'react-typing-animation';
 
 const Welcome = () => {
   return (
@@ -22,13 +23,26 @@ const Welcome = () => {
                     <h1 class='text-base leading-6 font-semibold text-indigo-600 tracking-wide uppercase'>
                       Full Stack Engineer
                     </h1>
-                    <p class='mt-1 text-4xl leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl'>
+                    <p class='mt-1 text-4xl leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl lg:mb-10'>
                       I build elegant solutions to complex problems.
                     </p>
-                    <p class='max-w-xl mt-5 mx-auto text-xl leading-7 text-gray-500'>
-                      Start building for free, then add a site plan to go live.
-                      Account plans unlock additional features.
-                    </p>
+                    <div class='max-w-xl mt-5 mx-auto text-xl leading-7 text-gray-500'>
+                      <Typing speed={50}>
+                        <div>
+                          <span className='text-6xl text-gray-700'>[</span>
+                          <span className='text-base leading-6 font-semibold text-gray-800 tracking-wide uppercase'>
+                            Hello, World!
+                          </span>
+                          <Typing.Delay ms={2000} />
+                          <span className='text-base leading-6 font-semibold text-gray-800 tracking-wide uppercase'>
+                            {' '}
+                            My name is Michael.
+                            <Typing.Delay ms={2000} /> Welcome to my page!
+                          </span>
+                          <span className='text-6xl text-gray-700'>]</span>
+                        </div>
+                      </Typing>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -36,6 +50,7 @@ const Welcome = () => {
           </div>
         </div>
       </section>
+      <div className='text-center'></div>
     </div>
   );
 };
