@@ -2,6 +2,7 @@ import React from 'react';
 import headshot from '../images/Headshot.jpg';
 import medium from '../images/blog/medium-icon.png';
 import awsCert from '../images/blog/awsCert.jpg';
+import psm from '../images/blog/psm-logo.png';
 
 const Blog = () => {
   return (
@@ -90,7 +91,7 @@ const Blog = () => {
           </div>
           <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
             <div class='flex-shrink-0'>
-              <img class='h-48 w-full object-contain' src={awsCert} alt='' />
+              <img class='h-48 w-full object-contain' src={psm} alt='' />
             </div>
             <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
               <div class='flex-1'>
@@ -105,7 +106,8 @@ const Blog = () => {
                 </div>
                 <div href='#' class='block'>
                   <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
-                    I Passed the AWS CCP in 3 Days - Here's How
+                    I Passed the Professional Scrum Master I in One day - Here's
+                    How
                   </h3>
                   <p class='mt-3 text-base leading-6 text-gray-700'>
                     Due to the fact that AWS is the industry-leading Cloud
@@ -128,7 +130,7 @@ const Blog = () => {
                 border-blue-800
                 hover:border-transparent
                 rounded'
-                  href='https://medium.com/@michaeljanschiumo/i-passed-the-aws-certified-cloud-practitioner-aws-ccp-in-3-days-heres-how-7b33d6d94f41?sk=58d6cc0a6cc0a280f2fb1ed20fc3a624'
+                  href='https://medium.com/@michaeljanschiumo/i-passed-the-professional-scrum-master-i-psm-i-in-one-day-heres-how-a9d795f235f7?sk=97b1d30d1195f268c17c8605bf473e41'
                 >
                   Read more
                 </a>
