@@ -337,7 +337,7 @@ const Experience = () => {
                       </li>
                       <li className='p-1'>
                         Wrote and translated articles for Investors' Voice,
-                        focusing on Energy
+                        focusing on the Oil Industry.
                       </li>
                     </ul>
                   </div>
@@ -404,7 +404,40 @@ const Experience = () => {
                 </li>
               </FrontSide>
               <BackSide>
-                <div>h</div>
+                <li class='py-4 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                  <div class='space-y-6 xl:space-y-10'>
+                    <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
+                      <div class='font-medium text-lg leading-6 space-y-1'>
+                        <h4 class='text-white'>12/17 - 03/18</h4>
+                        <p class='text-indigo-400'>Northern New Jersey</p>
+                      </div>
+                      <ul class='flex justify-center space-x-5'></ul>
+                    </div>
+                  </div>
+                  <div className='text-white mt-2'>
+                    <ul className='list-disc'>
+                      <li>
+                        Generated $40,000+ of revenue in newly identified,
+                        targeted markets.
+                      </li>
+                      <li className='p-1'>
+                        Employed expert-level knowledge of solar technologies to
+                        create professional schematics, cost-benefit analyses,
+                        and determine the appropriate leasing or ownership plan
+                        for the customer.
+                      </li>
+                      <li className='p-1'>
+                        Guided homeowners through the entire cycle of solar
+                        adoption to maximize cost savings, efficiency, and
+                        effectiveness.
+                      </li>
+                      <li className='p-1'>
+                        Generated leads, scheduled appointments, and conducted
+                        consultations to drive private solar installations.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
               </BackSide>
             </Flippy>
             <Flippy
@@ -459,7 +492,33 @@ const Experience = () => {
                 </li>
               </FrontSide>
               <BackSide>
-                <div>h</div>
+                <li class='py-4 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                  <div class='space-y-6 xl:space-y-10'>
+                    <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
+                      <div class='font-medium text-lg leading-6 space-y-1'>
+                        <h4 class='text-white mt-2'>09/14 - 10/14</h4>
+                        <p class='text-indigo-400'>Charlotte, NC</p>
+                      </div>
+                      <ul class='flex justify-center space-x-5'></ul>
+                    </div>
+                  </div>
+                  <div className='text-white mt-6'>
+                    <ul className='list-disc'>
+                      <li className='p-2'>
+                        Shadowed a Certified Financial Planning Professional.
+                      </li>
+                      <li className='p-2'>
+                        Utilized software to predict and ensure positive
+                        outcomes for clients.
+                      </li>
+                      <li className='p-2'>
+                        Attended client meetings to better understand financial
+                        strategies.
+                      </li>
+                      <p className='mt-40'></p>
+                    </ul>
+                  </div>
+                </li>
               </BackSide>
             </Flippy>
           </ul>
