@@ -31,7 +31,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <a href='https://www.hellomixy.com'>
                       <img
@@ -68,7 +68,7 @@ const Experience = () => {
                       </ul>
                     </div>
                     <div className='text-center'>
-                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center lg:-mt-4'>
+                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center lg:-mt-2'>
                         See More
                       </button>
                     </div>
@@ -116,7 +116,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <a href='http://www.usapavilion2017.org/'>
                       <img
@@ -204,7 +204,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <img
                       class='mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56'
@@ -284,7 +284,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <a href='http://amcham.kz/'>
                       <img
@@ -358,7 +358,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <a href='https://www.vivintsolar.com/'>
                       <img
@@ -446,7 +446,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <a href='https://www.ameriprise.com/'>
                       <img
@@ -502,16 +502,16 @@ const Experience = () => {
                       <ul class='flex justify-center space-x-5'></ul>
                     </div>
                   </div>
-                  <div className='text-white mt-6'>
+                  <div className='text-white lg:mt-6'>
                     <ul className='list-disc'>
-                      <li className='p-2'>
+                      <li className='lg:p-2'>
                         Shadowed a Certified Financial Planning Professional.
                       </li>
-                      <li className='p-2'>
+                      <li className='lg:p-2'>
                         Utilized software to predict and ensure positive
                         outcomes for clients.
                       </li>
-                      <li className='p-2'>
+                      <li className='lg:p-2'>
                         Attended client meetings to better understand financial
                         strategies.
                       </li>
@@ -524,7 +524,7 @@ const Experience = () => {
           </ul>
         </div>
       </div>
-      <div className='text-center mb-10'>
+      <div className='text-center mb-2 lg:mb-10'>
         <Link
           className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
           to='resume.pdf'
