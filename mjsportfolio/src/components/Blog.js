@@ -6,6 +6,7 @@ import psm from '../images/blog/psm-logo.png';
 import gitFlow from '../images/blog/github-flow.jpg';
 import staircase from '../images/blog/staircase.jpg';
 import responsive from '../images/blog/responsive.jpg';
+import lit from '../images/blog/lost_in_translation.jpg';
 
 const Blog = () => {
   return (
@@ -372,6 +373,77 @@ const Blog = () => {
                     <time datetime='2020-03-16'>April 29, 2020</time>
                     <span class='mx-1'>&middot;</span>
                     <span>5 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
+            <div class='flex-shrink-0'>
+              <img class='h-48 w-full object-contain' src={lit} alt='' />
+            </div>
+            <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
+              <div class='flex-1'>
+                <div class='flex-shrink-0'>
+                  <a href='https://medium.com/@michaeljanschiumo'>
+                    <img
+                      class='h-10 w-10 rounded-full hover:bg-gray-800'
+                      src={medium}
+                      alt=''
+                    />
+                  </a>
+                </div>
+                <div href='#' class='block'>
+                  <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
+                    Lost in Translation - The Importance of Context
+                  </h3>
+                  <p class='mt-3 text-base leading-6 text-gray-700'>
+                    One of the reasons that I am so fascinated with language is
+                    its innate ability to provide a window into the mind of a
+                    native speaker. Many people have told me that Russian sounds
+                    harsh, that it has a certain “intimidation factor.” I have
+                    to disagree.
+                  </p>
+                </div>
+              </div>
+              <div className='text-center lg:mt-6'>
+                <a
+                  className='
+                bg-transparent
+                hover:bg-gray-800
+                text-blue-800
+                font-semibold
+                hover:text-white
+                py-2
+                px-4
+                border
+                border-blue-800
+                hover:border-transparent
+                rounded'
+                  href='https://medium.com/@michaeljanschiumo/lost-in-translation-f44297ddc7e5?sk=ff84eacedb2f2b9bd76539634418a490'
+                >
+                  Read more
+                </a>
+              </div>
+              <div class='mt-6 flex items-center'>
+                <div class='flex-shrink-0'>
+                  <a href='https://medium.com/@michaeljanschiumo'>
+                    <img class='h-10 w-10 rounded-full' src={headshot} alt='' />
+                  </a>
+                </div>
+                <div class='ml-3'>
+                  <p class='text-sm leading-5 font-medium text-gray-900'>
+                    <a
+                      href='https://medium.com/@michaeljanschiumo'
+                      class='hover:underline'
+                    >
+                      @michaeljanschiumo
+                    </a>
+                  </p>
+                  <div class='flex text-sm leading-5 text-gray-600'>
+                    <time datetime='2020-03-16'>May 20, 2020</time>
+                    <span class='mx-1'>&middot;</span>
+                    <span>8 min read</span>
                   </div>
                 </div>
               </div>
