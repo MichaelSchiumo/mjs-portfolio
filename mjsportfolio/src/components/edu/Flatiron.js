@@ -17,12 +17,12 @@ const Flatiron = () => {
             Software Engineering (2019-2020)
           </div>
           <h2 class='mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10 font-legal'>
-            Flatiron School
+            Full Stack Development
           </h2>
           <div class='mt-3 text-lg leading-7 text-gray-300'>
             <div className='font-serif text-lg'>
               <ul class='list-disc'>
-                <li>Full Stack Web Development</li>
+                <li>Intensive Ruby and JavaScript Program</li>
                 <li>
                   Built Original Web Applications utilizing JavaScript and Ruby
                 </li>

@@ -1,9 +1,43 @@
 import React from 'react';
-import IconBar from './IconBar.js';
-import title from '../images/title.gif';
+import headshot from '../images/Headshot.jpg';
 
 const Welcome = () => {
-  return <div></div>;
+  return (
+    <div className='text-center grid grid-cols-1'>
+      <section class='bg-white overflow-hidden'>
+        <div class='relative max-w-screen-xl mx-auto pt-10 pb-2 px-4 sm:px-6 lg:px-16 lg:py-10'>
+          <div class='relative lg:flex lg:items-center'>
+            <div class='hidden lg:block lg:flex-shrink-0'>
+              <img
+                class='h-64 w-64 rounded-full xl:h-80 xl:w-80'
+                src={headshot}
+                alt=''
+              />
+            </div>
+
+            <div class='relative lg:ml-10'>
+              <div class='bg-white'>
+                <div class='max-w-screen-xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8'>
+                  <div class='text-center'>
+                    <h1 class='text-base leading-6 font-semibold text-indigo-600 tracking-wide uppercase'>
+                      Full Stack Engineer
+                    </h1>
+                    <p class='mt-1 text-4xl leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl'>
+                      I build elegant solutions to complex problems.
+                    </p>
+                    <p class='max-w-xl mt-5 mx-auto text-xl leading-7 text-gray-500'>
+                      Start building for free, then add a site plan to go live.
+                      Account plans unlock additional features.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 };
 
 export default Welcome;
