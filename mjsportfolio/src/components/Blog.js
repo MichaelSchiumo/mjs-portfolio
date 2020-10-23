@@ -160,7 +160,7 @@ const Blog = () => {
                     </a>
                   </p>
                   <div class='flex text-sm leading-5 text-gray-600'>
-                    <time datetime='2020-03-16'>July 11, 2020</time>
+                    <time datetime='2020-03-16'>July 1, 2020</time>
                     <span class='mx-1'>&middot;</span>
                     <span>7 min read</span>
                   </div>
@@ -230,9 +230,9 @@ const Blog = () => {
                     </a>
                   </p>
                   <div class='flex text-sm leading-5 text-gray-600'>
-                    <time datetime='2020-03-16'>July 11, 2020</time>
+                    <time datetime='2020-03-16'>July 27, 2020</time>
                     <span class='mx-1'>&middot;</span>
-                    <span>7 min read</span>
+                    <span>4 min read</span>
                   </div>
                 </div>
               </div>
@@ -300,9 +300,9 @@ const Blog = () => {
                     </a>
                   </p>
                   <div class='flex text-sm leading-5 text-gray-600'>
-                    <time datetime='2020-03-16'>July 11, 2020</time>
+                    <time datetime='2020-03-16'>May 28, 2020</time>
                     <span class='mx-1'>&middot;</span>
-                    <span>7 min read</span>
+                    <span>4 min read</span>
                   </div>
                 </div>
               </div>
