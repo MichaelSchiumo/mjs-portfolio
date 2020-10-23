@@ -42,9 +42,12 @@ const Blog = () => {
                     I Passed the AWS CCP in 3 Days - Here's How
                   </h3>
                   <p class='mt-3 text-base leading-6 text-gray-700'>
-                    Due to the fact that AWS is the industry-leading Cloud
-                    Services Provider, I decided that the AWS CCP was a good
-                    place to start.
+                    As someone who is making his first foray into Tech, I am
+                    always looking for ways to give me an edge, and demonstrate
+                    that I have the ability to learn new things quickly and
+                    effectively. Due to the fact that AWS is the
+                    industry-leading Cloud Services Provider, I decided that the
+                    AWS CCP was a good place to start.
                   </p>
                 </div>
               </div>
@@ -112,9 +115,11 @@ const Blog = () => {
                     How
                   </h3>
                   <p class='mt-3 text-base leading-6 text-gray-700'>
-                    Due to the fact that AWS is the industry-leading Cloud
-                    Services Provider, I decided that the AWS CCP was a good
-                    place to start.
+                    With little time to complete the certification, I decided
+                    that I had to apply one of Scrum’s 5 Values: Focus. In just
+                    one day, I learned Scrum to the level needed to achieve this
+                    certification with a 97%, with zero prior experience. Here’s
+                    how.
                   </p>
                 </div>
               </div>
@@ -181,9 +186,10 @@ const Blog = () => {
                     Things I Wish I Had Know - Pull Requests
                   </h3>
                   <p class='mt-3 text-base leading-6 text-gray-700'>
-                    Due to the fact that AWS is the industry-leading Cloud
-                    Services Provider, I decided that the AWS CCP was a good
-                    place to start.
+                    Last week was the first time that I had the opportunity to
+                    work with production-level code, and I am happy to say that
+                    my first-ever pull request (PR) was accepted! So, here are a
+                    few of the key things that I learned in dealing with PRs.
                   </p>
                 </div>
               </div>
