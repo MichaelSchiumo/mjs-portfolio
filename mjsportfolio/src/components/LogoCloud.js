@@ -2,7 +2,7 @@ import React from 'react';
 
 const LogoCloud = () => {
   return (
-    <div className='grid grid-rows-2 mt-12 h-48 rounded-lg'>
+    <div className='grid grid-rows-2 lg:mt-2 h-48 rounded-lg'>
       <div class='bg-gray-800'>
         <div class='max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-6 lg:w-3/4'>
           <div class='grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5'>

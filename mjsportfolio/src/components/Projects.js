@@ -209,39 +209,8 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className='lg:-mb-64'>
+      <div className='lg:w-full'>
         <LogoCloud />
-      </div>
-      <div className='lg:mt-64 lg:-mb-10 text-center'>
-        <div>
-          <Divider />
-          <br></br>
-          <a
-            href='https://www.linkedin.com/in/michael-john-schiumo-7860b668/'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='icons-bar'
-          >
-            <LinkedInIcon fontSize='large' />
-          </a>
-          <a
-            href='https://github.com/Michaelschiumo'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='icons-bar'
-          >
-            <GitHubIcon fontSize='large' />
-          </a>
-          <a
-            href='mailto:michaeljanschiumo@gmail.com'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='icons-bar'
-          >
-            <EmailIcon fontSize='large' />
-          </a>
-        </div>
-        <h1 className='lg:mt-4'>Stay Connected</h1>
       </div>
     </div>
   );
