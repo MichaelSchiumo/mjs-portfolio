@@ -524,7 +524,7 @@ const Experience = () => {
           </ul>
         </div>
       </div>
-      <div className='text-center mb-2 lg:mb-10'>
+      <div className='text-center mb-2 lg:mb-10 lg:-mt-12'>
         <Link
           className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
           to='resume.pdf'

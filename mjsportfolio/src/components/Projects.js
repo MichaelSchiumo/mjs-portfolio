@@ -14,9 +14,9 @@ const Projects = () => {
       <div class='relative max-w-7xl mx-auto'>
         <div class='text-center'>
           <h2 class='text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10'>
-            Original Applications
+            Original <span className='text-gray-700'>Applications</span>
           </h2>
-          <p class='mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-700 sm:mt-4'>
+          <p class='mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-800 sm:mt-4'>
             I strive to build applications that prioritize User Experience (UX)
             and <br />
             seamless design.
