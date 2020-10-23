@@ -4,6 +4,7 @@ import medium from '../images/blog/medium-icon.png';
 import awsCert from '../images/blog/awsCert.jpg';
 import psm from '../images/blog/psm-logo.png';
 import gitFlow from '../images/blog/github-flow.jpg';
+import staircase from '../images/blog/staircase.jpg';
 
 const Blog = () => {
   return (
@@ -13,8 +14,8 @@ const Blog = () => {
       </div>
       <div class='relative max-w-7xl mx-auto'>
         <div class='text-center'>
-          <h2 class='text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10'>
-            From the blog
+          <h2 class='text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10 font-legal'>
+            Get the Latest
           </h2>
           <p class='mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-700 sm:mt-4'>
             I write about the things that make me a better developer.
@@ -107,7 +108,7 @@ const Blog = () => {
                 </div>
                 <div href='#' class='block'>
                   <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
-                    I Passed the Professional Scrum Master I in One day - Here's
+                    I Passed the Professional Scrum Master I in One Day - Here's
                     How
                   </h3>
                   <p class='mt-3 text-base leading-6 text-gray-700'>
@@ -201,6 +202,76 @@ const Blog = () => {
                 hover:border-transparent
                 rounded'
                   href='https://medium.com/@michaeljanschiumo/things-i-wish-i-had-known-pull-requests-a96e9ff8f363?sk=44244b923b0e3f4d27ff9cbe7e85f03d'
+                >
+                  Read more
+                </a>
+              </div>
+              <div class='mt-6 flex items-center'>
+                <div class='flex-shrink-0'>
+                  <a href='https://medium.com/@michaeljanschiumo'>
+                    <img class='h-10 w-10 rounded-full' src={headshot} alt='' />
+                  </a>
+                </div>
+                <div class='ml-3'>
+                  <p class='text-sm leading-5 font-medium text-gray-900'>
+                    <a
+                      href='https://medium.com/@michaeljanschiumo'
+                      class='hover:underline'
+                    >
+                      @michaeljanschiumo
+                    </a>
+                  </p>
+                  <div class='flex text-sm leading-5 text-gray-600'>
+                    <time datetime='2020-03-16'>July 11, 2020</time>
+                    <span class='mx-1'>&middot;</span>
+                    <span>7 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
+            <div class='flex-shrink-0'>
+              <img class='h-48 w-full object-contain' src={staircase} alt='' />
+            </div>
+            <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
+              <div class='flex-1'>
+                <div class='flex-shrink-0'>
+                  <a href='https://medium.com/@michaeljanschiumo'>
+                    <img
+                      class='h-10 w-10 rounded-full hover:bg-gray-800'
+                      src={medium}
+                      alt=''
+                    />
+                  </a>
+                </div>
+                <div href='#' class='block'>
+                  <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
+                    Algorithms - The Staircase Problem
+                  </h3>
+                  <p class='mt-3 text-base leading-6 text-gray-700'>
+                    Write a function that accepts a positive number N. The
+                    function should console.log a step shape with N levels using
+                    the # character. Make sure that the step has spaces on the
+                    right-hand side.
+                  </p>
+                </div>
+              </div>
+              <div className='text-center lg:mt-6'>
+                <a
+                  className='
+                bg-transparent
+                hover:bg-gray-800
+                text-blue-800
+                font-semibold
+                hover:text-white
+                py-2
+                px-4
+                border
+                border-blue-800
+                hover:border-transparent
+                rounded'
+                  href='https://medium.com/@michaeljanschiumo/the-staircase-problem-8756efed7c17?sk=2324143df9f1934519077f442a6d4a58'
                 >
                   Read more
                 </a>
