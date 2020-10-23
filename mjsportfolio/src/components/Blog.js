@@ -7,6 +7,7 @@ import gitFlow from '../images/blog/github-flow.jpg';
 import staircase from '../images/blog/staircase.jpg';
 import responsive from '../images/blog/responsive.jpg';
 import lit from '../images/blog/lost_in_translation.jpg';
+import Footer from './Footer.js';
 
 const Blog = () => {
   return (
