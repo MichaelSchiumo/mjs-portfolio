@@ -9,10 +9,10 @@ const Projects = () => {
     <div class='relative bg-gray-50 pt-16 pb-20 sm:px-6 lg:px-0 lg:pt-24 lg:pb-28'>
       <div class='relative max-w-7xl mx-auto px-4'>
         <div class='text-center'>
-          <h2 class='leading-10 text-4xl lg:text-5xl lg:leading-9 tracking-tight font-extrabold text-gray-900'>
-            Original <span className='text-gray-700'>Applications</span>
+          <h2 class='leading-10 text-4xl lg:text-5xl lg:leading-9 tracking-tight font-extrabold text-gray-700'>
+            Original <span className='text-gray-900'>Applications</span>
           </h2>
-          <p class='mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-800 sm:mt-4'>
+          <p class='mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-900 sm:mt-4'>
             I strive to build applications that prioritize User Experience (UX)
             and <br />
             seamless design.
