@@ -4,6 +4,7 @@ import Typing from 'react-typing-animation';
 import 'react-animated-slider/build/horizontal.css';
 import Project from '../images/project-space.jpg';
 import Slider from 'react-animated-slider';
+import LogoCloud from './LogoCloud';
 
 const Welcome = () => {
   const slides = [
@@ -64,6 +65,9 @@ const Welcome = () => {
           </div>
         </div>
       </section>
+      <div className='object-contain'>
+        <LogoCloud />
+      </div>
     </div>
   );
 };
