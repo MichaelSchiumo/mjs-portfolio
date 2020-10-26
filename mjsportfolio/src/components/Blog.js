@@ -41,20 +41,19 @@ const Blog = () => {
                   </a>
                 </div>
                 <div href='#' class='block'>
-                  <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
+                  <h3 class='mt-2 text-md lg:text-lg leading-7 font-bold text-gray-900'>
                     I Passed the AWS CCP in 3 Days - Here's How
                   </h3>
-                  <p class='mt-3 text-base leading-6 text-gray-700'>
-                    As someone who is making his first foray into Tech, I am
-                    always looking for ways to give me an edge, and demonstrate
-                    that I have the ability to learn new things quickly and
-                    effectively. Due to the fact that AWS is the
+                  <p class='mt-3 text-sm lg:text-base leading-6 text-gray-700'>
+                    I am always looking for ways to give me an edge, and
+                    demonstrate that I have the ability to learn new things
+                    quickly and effectively. Due to the fact that AWS is the
                     industry-leading Cloud Services Provider, I decided that the
                     AWS CCP was a good place to start.
                   </p>
                 </div>
               </div>
-              <div className='text-center lg:mt-6'>
+              <div className='text-center mt-10 lg:mt-6'>
                 <a
                   className='
                 bg-transparent
@@ -117,16 +116,15 @@ const Blog = () => {
                     I Passed the Professional Scrum Master I in One Day - Here's
                     How
                   </h3>
-                  <p class='mt-3 text-base leading-6 text-gray-700'>
+                  <p class='mt-3 text-sm lg:text-base leading-6 text-gray-700'>
                     With little time to complete the certification, I decided
-                    that I had to apply one of Scrum’s 5 Values: Focus. In just
-                    one day, I learned Scrum to the level needed to achieve this
-                    certification with a 97%, with zero prior experience. Here’s
-                    how.
+                    that I had to apply one of Scrum’s 5 Values: Focus. In one
+                    day, I learned Scrum to the level needed to achieve this
+                    certification with a 97%, with zero prior experience.
                   </p>
                 </div>
               </div>
-              <div className='text-center lg:mt-6'>
+              <div className='text-center mt-10 lg:mt-6'>
                 <a
                   className='
                 bg-transparent
@@ -188,15 +186,15 @@ const Blog = () => {
                   <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
                     Things I Wish I Had Know - Pull Requests
                   </h3>
-                  <p class='mt-3 text-base leading-6 text-gray-700'>
+                  <p class='mt-3 text-sm lg:text-base leading-6 text-gray-700'>
                     Last week was the first time that I had the opportunity to
                     work with production-level code, and I am happy to say that
                     my first-ever pull request (PR) was accepted! So, here are a
-                    few of the key things that I learned in dealing with PRs.
+                    few of the key things that I learned.
                   </p>
                 </div>
               </div>
-              <div className='text-center lg:mt-6'>
+              <div className='text-center mt-10 lg:mt-6'>
                 <a
                   className='
                 bg-transparent
@@ -258,15 +256,14 @@ const Blog = () => {
                   <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
                     Algorithms - The Staircase Problem
                   </h3>
-                  <p class='mt-3 text-base leading-6 text-gray-700'>
+                  <p class='mt-3 text-sm lg:text-base leading-6 text-gray-700'>
                     Write a function that accepts a positive number N. The
                     function should console.log a step shape with N levels using
-                    the # character. Make sure that the step has spaces on the
-                    right-hand side.
+                    the # character.
                   </p>
                 </div>
               </div>
-              <div className='text-center lg:mt-6'>
+              <div className='text-center mt-10 lg:mt-6'>
                 <a
                   className='
                 bg-transparent
@@ -328,15 +325,15 @@ const Blog = () => {
                   <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
                     Responsive Design - Why It's Important
                   </h3>
-                  <p class='mt-3 text-base leading-6 text-gray-700'>
+                  <p class='mt-3 text-sm lg:text-base leading-6 text-gray-700'>
                     How do we make sure that our websites and the content
                     therein are displayed the way in which we want, and that our
-                    viewers are able to access it without doing the dreaded
-                    “pinch and flick” zoom? The answer: responsive web design.
+                    viewers are able to access it. The answer: responsive web
+                    design.
                   </p>
                 </div>
               </div>
-              <div className='text-center lg:mt-6'>
+              <div className='text-center mt-10 lg:mt-6'>
                 <a
                   className='
                 bg-transparent
@@ -398,16 +395,15 @@ const Blog = () => {
                   <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
                     Lost in Translation - The Importance of Context
                   </h3>
-                  <p class='mt-3 text-base leading-6 text-gray-700'>
+                  <p class='mt-3 text-sm lg:text-base leading-6 text-gray-700'>
                     One of the reasons that I am so fascinated with language is
                     its innate ability to provide a window into the mind of a
                     native speaker. Many people have told me that Russian sounds
-                    harsh, that it has a certain “intimidation factor.” I have
-                    to disagree.
+                    harsh, that it has a certain “intimidation factor.”
                   </p>
                 </div>
               </div>
-              <div className='text-center lg:mt-6'>
+              <div className='text-center mt-10 lg:mt-6'>
                 <a
                   className='
                 bg-transparent
