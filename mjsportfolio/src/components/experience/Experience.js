@@ -16,15 +16,15 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Experience = () => {
   return (
-    <div class='bg-gray-700'>
-      <div class='mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24'>
+    <div class='bg-white'>
+      <div class='mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-0 lg:py-16'>
         <div class='space-y-12'>
           <div class='space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none'>
-            <h2 class='text-3xl leading-9 font-extrabold text-white tracking-tight sm:text-4xl'>
+            <h2 class='text-4xl lg:text-5xl leading-9 font-extrabold text-gray-700 tracking-tight text-center'>
               Professional <span className='text-gray-900'>Experience</span>
             </h2>
           </div>
-          <ul class='space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8'>
+          <ul class='space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8 bg-gray-700 rounded'>
             <Flippy
               flipOnHover={false}
               flipOnClick={true}
@@ -106,6 +106,14 @@ const Experience = () => {
                         and tailored components from Tailwind CSS.
                       </li>
                     </ul>
+                  </div>
+                  <div className='text-center mt-4 text-white'>
+                    <a
+                      href='https://www.hellomixy.com'
+                      className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
+                    >
+                      Visit Mixy
+                    </a>
                   </div>
                 </li>
               </BackSide>
@@ -526,12 +534,19 @@ const Experience = () => {
       </div>
       <div className='text-center lg:-mt-10'>
         <Link
-          className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mb-2 lg:mb-0 rounded inline-flex items-center'
+          className='bg-gray-500 hover:bg-gray-700 text-gray-800 hover:text-white font-bold py-2 px-4 mb-2 lg:mb-2 rounded inline-flex items-center'
           to='resume.pdf'
           target='_blank'
           download
           id='button'
         >
+          <svg
+            class='fill-current w-4 h-4 mr-2'
+            xmlns='http://www.w3.org/2000/svg'
+            viewBox='0 0 20 20'
+          >
+            <path d='M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z' />
+          </svg>
           Download Resume
         </Link>
       </div>
