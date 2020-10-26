@@ -68,7 +68,7 @@ const Experience = () => {
                       </ul>
                     </div>
                     <div className='text-center'>
-                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center lg:-mt-2'>
+                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'>
                         See More
                       </button>
                     </div>
@@ -248,7 +248,7 @@ const Experience = () => {
                       </ul>
                     </div>
                     <div className='text-center'>
-                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center lg:-mt-4'>
+                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'>
                         See More
                       </button>
                     </div>
@@ -404,7 +404,7 @@ const Experience = () => {
                       </ul>
                     </div>
                     <div className='text-center'>
-                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center lg:mt-4'>
+                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'>
                         See More
                       </button>
                     </div>
@@ -492,7 +492,7 @@ const Experience = () => {
                       </ul>
                     </div>
                     <div className='text-center'>
-                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center lg:mt-4'>
+                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'>
                         See More
                       </button>
                     </div>
