@@ -29,9 +29,7 @@ const Welcome = () => {
                     <div class='max-w-xl mt-5 mx-auto text-xl leading-7 text-gray-500'>
                       <Typing speed={50}>
                         <div>
-                          <span className='text-xl text-gray-700'>
-                            &lt;p&gt;
-                          </span>
+                          <span className='text-xl text-gray-700'>[</span>
                           <span className='text-base text-lg leading-6 font-semibold text-gray-800 tracking-wide uppercase'>
                             Hello, World!
                           </span>
@@ -40,9 +38,7 @@ const Welcome = () => {
                             {' '}
                             Welcome to my page!
                           </span>
-                          <span className='text-xl text-gray-700'>
-                            &lt;/p&gt;
-                          </span>
+                          <span className='text-xl text-gray-700'>]</span>
                         </div>
                       </Typing>
                     </div>
