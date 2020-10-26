@@ -209,9 +209,9 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className='lg:w-full lg:-mb-20'>
+      {/* <div className='lg:w-full lg:-mb-20'>
         <LogoCloud />
-      </div>
+      </div> */}
     </div>
   );
 };
