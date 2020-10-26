@@ -18,14 +18,6 @@ const Footer = () => {
           </div>
           <div class='px-5 py-2'>
             <a
-              href='/education'
-              class='text-base leading-6 text-gray-500 hover:text-gray-900'
-            >
-              Education
-            </a>
-          </div>
-          <div class='px-5 py-2'>
-            <a
               href='/projects'
               class='text-base leading-6 text-gray-500 hover:text-gray-900'
             >
@@ -38,6 +30,22 @@ const Footer = () => {
               class='text-base leading-6 text-gray-500 hover:text-gray-900'
             >
               Experience
+            </a>
+          </div>
+          <div class='px-5 py-2'>
+            <a
+              href='/experience'
+              class='text-base leading-6 text-gray-500 hover:text-gray-900'
+            >
+              Certifications
+            </a>
+          </div>
+          <div class='px-5 py-2'>
+            <a
+              href='/education'
+              class='text-base leading-6 text-gray-500 hover:text-gray-900'
+            >
+              Education
             </a>
           </div>
           <div class='px-5 py-2'>
