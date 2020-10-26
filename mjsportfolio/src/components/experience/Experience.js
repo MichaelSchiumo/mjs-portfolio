@@ -526,7 +526,7 @@ const Experience = () => {
       </div>
       <div className='text-center lg:-mt-10'>
         <Link
-          className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
+          className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mb-2 lg:mb-0 rounded inline-flex items-center'
           to='resume.pdf'
           target='_blank'
           download
