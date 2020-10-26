@@ -3,17 +3,13 @@ import githubFinder from '../images/github-finder.png';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import cuisineCurator from '../images/cuisine-curator.png';
 import aspirationStation from '../images/aspiration-station.png';
-import LogoCloud from './LogoCloud.js';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import EmailIcon from '@material-ui/icons/Email';
-import { Divider } from '@material-ui/core';
 
 const Projects = () => {
   return (
     <div class='relative bg-gray-50 pt-16 pb-20 sm:px-6 lg:px-0 lg:pt-24 lg:pb-28'>
       <div class='relative max-w-7xl mx-auto px-4'>
         <div class='text-center'>
-          <h2 class='text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10'>
+          <h2 class='leading-10 text-4xl lg:text-5xl lg:leading-9 tracking-tight font-extrabold text-gray-900'>
             Original <span className='text-gray-700'>Applications</span>
           </h2>
           <p class='mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-800 sm:mt-4'>
