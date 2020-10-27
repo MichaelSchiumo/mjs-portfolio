@@ -4,7 +4,8 @@ import './index.css';
 import Navbar from './components/Navbar.js';
 import { Route, Switch } from 'react-router-dom';
 import Welcome from './components/Welcome.js';
-import Education from './components/Education.js';
+// import Education from './components/Education.js';
+import Education2 from './components/Education2.js';
 import Projects from './components/Projects.js';
 import About from './components/About.js';
 import Experience from './components/experience/Experience.js';
@@ -18,7 +19,7 @@ function App() {
       <div id='body'>
         <Switch>
           <Route exact path='/' component={Welcome} />
-          <Route path='/education' component={Education} />
+          <Route path='/education' component={Education2} />
           <Route path='/projects' component={Projects} />
           <Route path='/experience' component={Experience} />
           <Route path='/blog' component={Blog} />
