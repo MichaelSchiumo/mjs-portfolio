@@ -194,20 +194,28 @@ const Education2 = () => {
                     <li className='p-2'>
                       Boren Scholar, Russian Language and International Business
                     </li>
-                    <li className='p-2'>
+                    <li className='p-1'>
                       Academic Excellence Award Winner, TCNJ
                     </li>
-                    <li className='p-2'>
+                    <li className='p-1'>
                       Russian Scholar Laureate, American Council of Teachers of
                       Russian
                     </li>
-                    <li className='p-2'>
+                    <li className='p-1'>
                       Founder and President, TCNJ Russian Club
                     </li>
-                    <li className='p-2'>
+                    <li className='p-1'>
                       Published Original Capstone, Kindle Unlimited, 2018
                     </li>
-                    <p className='lg:mt-10'></p>
+                    <div class='inline-flex rounded-md shadow text-center mb-10 lg:mb-4 ml-20 lg:mt-4'>
+                      <a
+                        class='
+                    bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
+                        href='https://www.amazon.com/Resource-Curse-Russias-Greatest-Blessing-ebook/dp/B07BTLC43P/ref=sr_1_1?dchild=1&keywords=schiumo&qid=1603811864&sr=8-1'
+                      >
+                        View Publication
+                      </a>
+                    </div>
                   </ul>
                 </div>
               </li>
