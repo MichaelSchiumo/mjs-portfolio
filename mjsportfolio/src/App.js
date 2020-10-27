@@ -6,6 +6,7 @@ import { Route, Switch } from 'react-router-dom';
 import Welcome from './components/Welcome.js';
 import Education from './components/Education.js';
 import Projects from './components/Projects.js';
+import About from './components/About.js';
 import Experience from './components/experience/Experience.js';
 import Blog from './components/Blog.js';
 import Footer from './components/Footer.js';
@@ -21,6 +22,7 @@ function App() {
           <Route path='/projects' component={Projects} />
           <Route path='/experience' component={Experience} />
           <Route path='/blog' component={Blog} />
+          <Route path='/about' component={About} />
         </Switch>
         <Footer />
       </div>
