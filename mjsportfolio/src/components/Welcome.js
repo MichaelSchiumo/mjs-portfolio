@@ -54,7 +54,6 @@ const Welcome = () => {
                       <a
                         href='/about'
                         class='bg-gray-800
-                        border-b-4
                       hover:bg-gray-700
                       text-white
                       font-semibold
@@ -67,9 +66,6 @@ const Welcome = () => {
                       rounded'
                       >
                         Learn More About Me{' '}
-                        <span>
-                          <DoubleArrowIcon />
-                        </span>
                       </a>
                     </div>
                   </div>
