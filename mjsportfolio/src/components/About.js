@@ -16,13 +16,13 @@ const About = () => {
           <div className='lg:mt-2 lg:p-4 lg:ml-56'>
             <img src={POL} className='rounded' />
           </div>
-          <p class='sm:mt-4 mt-3 max-w-3xl mx-auto text-xl leading-7 text-gray-900 '>
+          <p class='sm:mt-4 mt-3 max-w-3xl mx-auto text-xl leading-7 text-gray-900'>
             Prior to becoming a Developer, I worked in multiple fields,
-            including Finance and International Diplomacy. I am fluent in
-            Russian, and have lived and worked abroad in Kazakhstan for
-            Ambassador Krol and the American Chamber of Commerce. With my skills
-            in Web Development, I hope to unify my talents to enrich the lives
-            of others through technology.
+            including Finance, International Diplomacy, and Renewable Energy. I
+            am fluent in Russian, and have lived and worked abroad in Kazakhstan
+            for Ambassador Krol and the American Chamber of Commerce. With my
+            skills in Web Development, I hope to unify my talents to enrich the
+            lives of others through technology.
           </p>
           <div className='p-6'>
             <a
@@ -140,10 +140,6 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className='h-36 -mb-24 lg:mt-4 lg:mb-0 lg:h-20'>
-        <LogoCloud />
       </div>
     </div>
   );

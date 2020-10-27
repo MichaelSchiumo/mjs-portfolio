@@ -17,7 +17,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 const Experience = () => {
   return (
     <div class='bg-white'>
-      <div class='mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-0 lg:py-16'>
+      <div class='mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-0 lg:py-24'>
         <div class='space-y-12'>
           <div class='space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none'>
             <h2 class='text-4xl lg:text-5xl leading-9 font-extrabold text-gray-700 tracking-tight text-center'>

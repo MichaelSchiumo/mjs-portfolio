@@ -21,7 +21,7 @@ const Welcome = () => {
                   Michael J. Schiumo
                 </h1>
                 <h1 class='text-base leading-6 font-semibold text-indigo-600 tracking-wide uppercase'>
-                  Full Stack Engineer
+                  Full Stack Engineer, Mixy
                 </h1>
               </div>
             </div>
