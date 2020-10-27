@@ -6,7 +6,7 @@ import tcnj2 from '../images/tcnj-logo-circle.png';
 const Education2 = () => {
   return (
     <div className='lg:mb-4'>
-      <div class='text-center mt-6 lg:mb-4 lg:mt-4'>
+      <div class='text-center mt-6 lg:mb-4 lg:mt-6'>
         <h2 class='text-4xl lg:text-5xl mb-2 leading-9 tracking-tight font-extrabold text-gray-700  sm:leading-10 font-legal lg:mb-0'>
           Education
         </h2>
