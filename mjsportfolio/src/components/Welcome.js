@@ -7,7 +7,7 @@ const Welcome = () => {
   return (
     <div className='text-center grid lg:grid-cols-1'>
       <section class='bg-white overflow-hidden'>
-        <div class='relative max-w-screen-xl mx-auto pt-10 pb-2 px-4 sm:px-6 lg:px-16 lg:py-10'>
+        <div class='relative max-w-screen-xl mx-auto pt-10 pb-2 lg:px-16 lg:py-10'>
           <div class='relative lg:flex lg:items-center'>
             <div class='hidden lg:block lg:flex-shrink-0'>
               <img

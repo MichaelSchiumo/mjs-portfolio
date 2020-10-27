@@ -35,7 +35,7 @@ const Education2 = () => {
                 </dl>
               </div>
               <div class='border-t border-gray-200'>
-                <div class='inline-flex rounded-md shadow justify-items-center mb-10 lg:mt-4 lg:mb-6'>
+                <div class='inline-flex rounded-md shadow justify-items-center mb-4 mt-4 lg:mt-4 lg:mb-6'>
                   <a
                     class='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
                     href='/projects'
@@ -97,7 +97,7 @@ const Education2 = () => {
                 </dl>
               </div>
               <div class='border-t border-gray-200'>
-                <div class='inline-flex rounded-md shadow justify-items-center mb-10 lg:mt-4 lg:mb-6'>
+                <div class='inline-flex rounded-md shadow justify-items-center mb-6 mt-4 lg:mt-4 lg:mb-6'>
                   <a
                     class='
                     bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
@@ -163,7 +163,7 @@ const Education2 = () => {
                 </dl>
               </div>
               <div class='border-t border-gray-200'>
-                <div class='inline-flex rounded-md shadow justify-items-center mb-10 lg:mt-4 lg:mb-6'>
+                <div class='inline-flex rounded-md shadow justify-items-center mb-10 mt-4 lg:mt-4 lg:mb-6'>
                   <a
                     class='
                     bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
@@ -175,51 +175,50 @@ const Education2 = () => {
               </div>
             </li>
           </FrontSide>
-          <BackSide>
-            <BackSide>
-              <li class='py-4 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
-                <div class='space-y-6 xl:space-y-10'>
-                  <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
-                    <div class='font-medium text-lg leading-6 space-y-1'>
-                      <p class='text-indigo-400'>
-                        The College of New Jersey (TCNJ)
-                      </p>
-                    </div>
-                    <ul class='flex justify-center space-x-5'></ul>
-                  </div>
-                </div>
 
-                <div className='text-white mt-4'>
-                  <ul className='list-disc'>
-                    <li className='p-2'>
-                      Boren Scholar, Russian Language and International Business
-                    </li>
-                    <li className='p-1'>
-                      Academic Excellence Award Winner, TCNJ
-                    </li>
-                    <li className='p-1'>
-                      Russian Scholar Laureate, American Council of Teachers of
-                      Russian
-                    </li>
-                    <li className='p-1'>
-                      Founder and President, TCNJ Russian Club
-                    </li>
-                    <li className='p-1'>
-                      Published Original Capstone, Kindle Unlimited, 2018
-                    </li>
-                    <div class='inline-flex rounded-md shadow text-center mb-10 lg:mb-4 ml-20 lg:mt-4'>
-                      <a
-                        class='
-                    bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
-                        href='https://www.amazon.com/Resource-Curse-Russias-Greatest-Blessing-ebook/dp/B07BTLC43P/ref=sr_1_1?dchild=1&keywords=schiumo&qid=1603811864&sr=8-1'
-                      >
-                        View Publication
-                      </a>
-                    </div>
-                  </ul>
+          <BackSide>
+            <li class='py-4 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+              <div class='space-y-6 xl:space-y-10'>
+                <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
+                  <div class='font-medium text-lg leading-6 space-y-1'>
+                    <p class='text-indigo-400'>
+                      The College of New Jersey (TCNJ)
+                    </p>
+                  </div>
+                  <ul class='flex justify-center space-x-5'></ul>
                 </div>
-              </li>
-            </BackSide>
+              </div>
+
+              <div className='text-white lg:mt-4'>
+                <ul className='list-disc'>
+                  <li className='p-2'>
+                    Boren Scholar, Russian Language and International Business
+                  </li>
+                  <li className='p-1'>
+                    Academic Excellence Award Winner, TCNJ
+                  </li>
+                  <li className='p-1'>
+                    Russian Scholar Laureate, American Council of Teachers of
+                    Russian
+                  </li>
+                  <li className='p-1'>
+                    Founder and President, TCNJ Russian Club
+                  </li>
+                  <li className='p-1'>
+                    Published Original Capstone, Kindle Unlimited, 2018
+                  </li>
+                  <div class='inline-flex rounded-md shadow text-center mb-2 mt-2 lg:mb-4 lg:ml-20 lg:mt-4'>
+                    <a
+                      class='
+                    bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
+                      href='https://www.amazon.com/Resource-Curse-Russias-Greatest-Blessing-ebook/dp/B07BTLC43P/ref=sr_1_1?dchild=1&keywords=schiumo&qid=1603811864&sr=8-1'
+                    >
+                      View Publication
+                    </a>
+                  </div>
+                </ul>
+              </div>
+            </li>
           </BackSide>
         </Flippy>
       </ul>
