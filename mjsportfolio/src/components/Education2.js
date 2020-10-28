@@ -6,20 +6,20 @@ import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 const Education2 = () => {
   return (
-    <div className='lg:mb-4 xl:mb-20'>
+    <div className='md:mb-40 md:mt-10 lg:mb-4 xl:mb-20'>
       <div class='text-center mt-6 lg:mb-4 lg:mt-20'>
         <h2 class='text-4xl lg:text-5xl mb-2 leading-9 tracking-tight font-extrabold text-gray-700  sm:leading-10 font-legal lg:mb-0'>
           Education
         </h2>
       </div>
-      <ul class='grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 lg:p-4'>
+      <ul class='grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 lg:p-4 lg:px-26 xl:px-40'>
         <Flippy
           flipOnHover={false}
           flipOnClick={false}
           flipDirection='horizontal'
         >
           <FrontSide>
-            <li class='col-span-1 flex flex-col text-center bg-gray-700 rounded-lg shadow justify-items-center border-solid border-4 border-gray-800 hover:bg-gray-900'>
+            <li class='col-span-1 flex flex-col text-center bg-gray-700 rounded-lg justify-items-center border-solid border-4 border-gray-800 hover:bg-gray-900'>
               <div class='flex-1 flex flex-col p-8'>
                 <img
                   class='w-40 h-40 flex-shrink-0 mx-auto bg-black rounded-full'
@@ -35,7 +35,7 @@ const Education2 = () => {
                 </dl>
               </div>
               <div class='border-t border-gray-200'>
-                <div class='inline-flex rounded-md shadow justify-items-center mb-4 mt-4 lg:mt-4 lg:mb-6'>
+                <div class='inline-flex rounded-md justify-items-center mb-4 mt-4 lg:mt-4 lg:mb-6'>
                   <a
                     class='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
                     href='/projects'
@@ -47,7 +47,7 @@ const Education2 = () => {
             </li>
           </FrontSide>
           <BackSide>
-            <li class='col-span-1 flex flex-col text-center bg-gray-700 rounded-lg shadow justify-items-center border-solid border-4 border-gray-700 hover:bg-gray-800'>
+            <li class='col-span-1 flex flex-col text-center bg-gray-700 rounded-lg justify-items-center border-solid border-4 border-gray-700 hover:bg-gray-800'>
               <div class='flex-1 flex flex-col p-8'>
                 <img
                   class='w-40 h-40 flex-shrink-0 mx-auto bg-black rounded-full'
@@ -63,7 +63,7 @@ const Education2 = () => {
                 </dl>
               </div>
               <div class='border-t border-gray-200'>
-                <div class='inline-flex rounded-md shadow justify-items-center mb-10 lg:mt-4 lg:mb-6'>
+                <div class='inline-flex rounded-md justify-items-center mb-10 lg:mt-4 lg:mb-6'>
                   <a
                     class='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
                     href='/projects'
@@ -81,7 +81,7 @@ const Education2 = () => {
           flipDirection='horizontal'
         >
           <FrontSide>
-            <li class='col-span-1 flex flex-col text-center bg-gray-700 rounded-lg shadow justify-items-center border-solid border-4 border-gray-800 hover:bg-gray-900'>
+            <li class='col-span-1 flex flex-col text-center bg-gray-700 rounded-lg justify-items-center border-solid border-4 border-gray-800 hover:bg-gray-900'>
               <div class='flex-1 flex flex-col p-8'>
                 <img
                   class='w-40 h-40 flex-shrink-0 mx-auto bg-gray-700 rounded-full'
@@ -97,7 +97,7 @@ const Education2 = () => {
                 </dl>
               </div>
               <div class='border-t border-gray-200'>
-                <div class='inline-flex rounded-md shadow justify-items-center mb-6 mt-4 lg:mt-4 lg:mb-6'>
+                <div class='inline-flex rounded-md justify-items-center mb-6 mt-4 lg:mt-4 lg:mb-6'>
                   <a
                     class='
                     bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
@@ -147,7 +147,7 @@ const Education2 = () => {
           flipDirection='horizontal'
         >
           <FrontSide>
-            <li class='col-span-1 flex flex-col text-center bg-gray-700 rounded-lg shadow justify-items-center border-solid border-4 border-gray-800 hover:bg-gray-900'>
+            <li class='col-span-1 flex flex-col text-center bg-gray-700 rounded-lg justify-items-center border-solid border-4 border-gray-800 hover:bg-gray-900'>
               <div class='flex-1 flex flex-col p-8'>
                 <img
                   class='w-40 h-40 flex-shrink-0 mx-auto bg-black rounded-full'
@@ -163,7 +163,7 @@ const Education2 = () => {
                 </dl>
               </div>
               <div class='border-t border-gray-200'>
-                <div class='inline-flex rounded-md shadow justify-items-center mb-10 mt-4 lg:mt-4 lg:mb-6'>
+                <div class='inline-flex rounded-md justify-items-center mb-10 mt-4 lg:mt-4 lg:mb-6'>
                   <a
                     class='
                     bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
@@ -207,7 +207,7 @@ const Education2 = () => {
                   <li className='p-1'>
                     Published Original Capstone, Kindle Unlimited, 2018
                   </li>
-                  <div class='inline-flex rounded-md shadow text-center mb-2 mt-2 lg:mb-4 lg:ml-20 lg:mt-4'>
+                  <div class='inline-flex rounded-md text-center mb-2 mt-2 lg:mb-4 lg:ml-20 lg:mt-4'>
                     <a
                       class='
                     bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
