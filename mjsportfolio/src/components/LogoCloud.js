@@ -4,7 +4,7 @@ const LogoCloud = () => {
   return (
     <div className='grid grid-rows-2 h-60 mt-10 lg:mt-2 lg:h-40 rounded-lg'>
       <div class='bg-gray-800'>
-        <div class='max-w-screen-xl mx-auto py-6 px-4 sm:px-6 lg:px-6 lg:w-3/4 lg:mt-4'>
+        <div class='max-w-screen-xl mx-auto py-6 px-4 sm:px-6 lg:px-6 lg:w-3/4 lg:mt-2 text-center'>
           <div class='grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5'>
             <div class='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
               <span className='h-12 fab fa-js-square fa-3x text-2xl text-white'>
