@@ -1,7 +1,6 @@
 import React from 'react';
-import tcnj from '../images/tcnj-logo.png';
 import flatiron from '../images/flatiron-logo.png';
-import tcnj2 from '../images/tcnj-logo-circle.png';
+import lion from '../images/tcnj-lion.png';
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 const Education2 = () => {
@@ -85,7 +84,7 @@ const Education2 = () => {
               <div class='flex-1 flex flex-col p-8'>
                 <img
                   class='w-40 h-40 flex-shrink-0 mx-auto bg-gray-700 rounded-full'
-                  src={tcnj2}
+                  src={lion}
                   alt=''
                 />
                 <h3 class='mt-6 text-white text-xl leading-5 font-medium'>
@@ -151,7 +150,7 @@ const Education2 = () => {
               <div class='flex-1 flex flex-col p-8'>
                 <img
                   class='w-40 h-40 flex-shrink-0 mx-auto bg-black rounded-full'
-                  src={tcnj2}
+                  src={lion}
                   alt=''
                 />
                 <h3 class='mt-6 text-white text-xl leading-5 font-medium'>
