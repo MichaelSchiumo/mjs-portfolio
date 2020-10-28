@@ -184,7 +184,7 @@ const Blog = () => {
                 </div>
                 <div href='#' class='block'>
                   <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
-                    Things I Wish I Had Know - Pull Requests
+                    Things I Wish I Had Known - Pull Requests
                   </h3>
                   <p class='mt-3 text-sm lg:text-base leading-6 text-gray-700'>
                     Last week was the first time that I had the opportunity to
