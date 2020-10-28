@@ -8,17 +8,17 @@ import portrait from '../images/cropped-portrait.jpg';
 
 const About = () => {
   return (
-    <div class='bg-white max-w-full'>
+    <div class='bg-white'>
       <div>
         <div class='max-w-6xl mx-auto text-center py-16 px-2 sm:py-20 sm:px-6 lg:px-8'>
-          <h2 class='text-6xl lg:-mt-2 lg:p-2 lg:text-5xl lg:leading-9 tracking-tight font-extrabold text-gray-700 lg:-mt-8'>
+          <h2 class='text-3xl -mt-6 lg:p-2 lg:text-5xl lg:leading-9 tracking-tight font-extrabold text-gray-700 lg:-mt-8'>
             Background<span className='text-gray-900'> and </span>Certifications
           </h2>
           <img
             src={portrait}
             class='mt-4 h-48 xl:h-64 text-lg rounded-full mx-auto'
           />
-          <p class='max-w-3xl text-sm lg:text-lg lg:mt-4 text-gray-900 mx-auto text-left'>
+          <p class='max-w-3xl text-sm mt-4 lg:text-lg lg:mt-4 text-gray-900 mx-auto pr-6 lg:pr-0 text-left'>
             Prior to becoming a Developer, I have worked in multiple fields,
             including Finance at Merrill Lynch, International Diplomacy at US
             Department of State, and Renewable Energy with Vivint Solar. I am
@@ -27,14 +27,14 @@ const About = () => {
             skills in Web Development, I hope to unify my talents to enrich the
             lives of others through technology.
           </p>
-          <p class='max-w-3xl text-sm lg:text-lg lg:mt-4 text-gray-900 mx-auto text-left'>
+          <p class='max-w-3xl mt-4 text-sm lg:text-lg lg:mt-4 text-gray-900 mx-auto pr-6 lg:pr-0 text-left'>
             Below are the technologies that I currently use, as well as
             additional certifications that I hold.
           </p>
         </div>
       </div>
       <div>
-        <div class='mt-2 grid gap-5 mx-auto lg:grid-cols-2 lg:max-w-6xl lg:px-20'>
+        <div class='mt-2 grid gap-5 mx-auto px-2 lg:grid-cols-2 lg:max-w-6xl lg:px-20'>
           <div class='flex flex-col rounded-lg shadow-lg overflow-hidden border-solid border-4'>
             <div class='flex-shrink-0'>
               <img class='h-48 w-full object-contain' src={psm} alt='' />
