@@ -206,7 +206,7 @@ const Education2 = () => {
                   <li className='p-1'>
                     Published Original Capstone, Kindle Unlimited, 2018
                   </li>
-                  <div class='inline-flex rounded-md text-center mb-2 mt-2 lg:mb-4 lg:ml-20 lg:mt-4'>
+                  <div class=' rounded-md text-center mb-2 mt-2 lg:mb-4 lg:mt-4'>
                     <a
                       class='
                     bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
