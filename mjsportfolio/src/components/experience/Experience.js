@@ -24,7 +24,7 @@ const Experience = () => {
               Professional <span className='text-gray-900'>Experience</span>
             </h2>
           </div>
-          <ul class='space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8 bg-gray-700 rounded'>
+          <ul class='space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8 rounded'>
             <Flippy
               flipOnHover={false}
               flipOnClick={true}
