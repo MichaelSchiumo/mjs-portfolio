@@ -21,9 +21,13 @@ const Projects = () => {
         <div class='mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none shadow-xl'>
           <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
             <div class='flex-shrink-0'>
-              <img class='h-48 w-full object-cover' src={githubFinder} alt='' />
+              <img
+                class='h-48 w-full object-contain'
+                src={githubFinder}
+                alt=''
+              />
             </div>
-            <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
+            <div class='flex-1 p-6 flex flex-col justify-between bg-gray-200 hover:bg-gray-300'>
               <div class='flex-1'>
                 <p class='text-sm leading-5 font-medium text-indigo-600'>
                   <a href='#' class='hover:underline'>
@@ -81,12 +85,12 @@ const Projects = () => {
           <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
             <div class='flex-shrink-0'>
               <img
-                class='h-48 w-full object-cover'
+                class='h-48 w-full object-contain'
                 src={cuisineCurator}
                 alt=''
               />
             </div>
-            <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
+            <div class='flex-1 p-6 flex flex-col justify-between bg-gray-200 hover:bg-gray-300'>
               <div class='flex-1'>
                 <p class='text-sm leading-5 font-medium text-indigo-600'>
                   <a href='#' class='hover:underline'>
@@ -149,7 +153,7 @@ const Projects = () => {
                 alt=''
               />
             </div>
-            <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
+            <div class='flex-1 p-6 flex flex-col justify-between bg-gray-200 hover:bg-gray-300'>
               <div class='flex-1'>
                 <p class='text-sm leading-5 font-medium text-indigo-600'>
                   <a href='#' class='hover:underline'>
