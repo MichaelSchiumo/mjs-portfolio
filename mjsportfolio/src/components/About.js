@@ -27,6 +27,12 @@ const About = () => {
             skills in Web Development, I hope to unify my talents to enrich the
             lives of others through technology.
           </p>
+          <p class='max-w-3xl text-sm mt-4 lg:text-lg lg:mt-4 text-gray-900 mx-auto pr-6 lg:pr-0 text-left'>
+            When I'm not coding, I am an avid soccer player. I love to write,
+            ski, and be in the outdoors. I have a Jack Russell named Rudy, who
+            keeps me on my toes at all times. Most of all, I enjoy speaking
+            Russian and learning new cultures and languages.
+          </p>
           <p class='max-w-3xl mt-4 text-sm lg:text-lg lg:mt-4 text-gray-900 mx-auto pr-6 lg:pr-0 text-left'>
             Below are the technologies that I currently use, as well as
             additional certifications that I hold.
