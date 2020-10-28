@@ -1,10 +1,7 @@
 import React from 'react';
 import awsCert from '../images/blog/awsCert.jpg';
 import psm from '../images/blog/psm-logo.png';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import Logos2 from './Logos2';
 import Logos1 from './Logos1';
-import POL from '../images/pol.jpg';
 import portrait from '../images/cropped-portrait.jpg';
 
 const About = () => {
