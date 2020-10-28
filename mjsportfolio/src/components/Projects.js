@@ -18,7 +18,7 @@ const Projects = () => {
             seamless design.
           </p>
         </div>
-        <div class='mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none shadow-xl'>
+        <div class='mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none lg:px-20'>
           <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
             <div class='flex-shrink-0'>
               <img
