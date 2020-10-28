@@ -35,10 +35,14 @@ const About = () => {
             Below are the technologies that I currently use, as well as
             additional certifications that I hold.
           </p>
+          <p class='max-w-3xl mt-4 text-sm lg:text-2xl lg:mt-4 text-gray-900 mx-auto pr-6 lg:pr-0 sm:text-center lg:text-center extrabold font-legal lg:shadow-2xl'>
+            Ruby, Rails, JavaScript, React, ExpressJS, HTML, CSS, SQL, MongoDB,
+            Postgres
+          </p>
         </div>
       </div>
       <div>
-        <div class='mt-2 grid gap-5 mx-auto px-2 lg:grid-cols-2 lg:max-w-6xl lg:px-20'>
+        <div class='-mt-10 mb-4 grid gap-5 mx-auto px-2 lg:grid-cols-2 lg:max-w-6xl lg:px-20'>
           <div class='flex flex-col rounded-lg shadow-lg overflow-hidden border-solid border-4'>
             <div class='flex-shrink-0'>
               <img class='h-48 w-full object-contain' src={psm} alt='' />
@@ -129,9 +133,6 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className='mx-auto mt-4'>
-        <Logos1 />
       </div>
     </div>
   );
