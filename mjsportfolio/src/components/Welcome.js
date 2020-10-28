@@ -5,7 +5,7 @@ import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
 
 const Welcome = () => {
   return (
-    <div className='text-center grid lg:grid-cols-1'>
+    <div className='text-center grid lg:grid-cols-1 xl:mb-16'>
       <section class='bg-white overflow-hidden'>
         <div class='relative max-w-screen-xl mx-auto pt-10 pb-2 lg:px-16 lg:py-10'>
           <div class='relative lg:flex lg:items-center'>
