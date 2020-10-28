@@ -6,7 +6,7 @@ import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 const Education2 = () => {
   return (
-    <div className='lg:mb-4'>
+    <div className='lg:mb-4 xl:mb-20'>
       <div class='text-center mt-6 lg:mb-4 lg:mt-20'>
         <h2 class='text-4xl lg:text-5xl mb-2 leading-9 tracking-tight font-extrabold text-gray-700  sm:leading-10 font-legal lg:mb-0'>
           Education
