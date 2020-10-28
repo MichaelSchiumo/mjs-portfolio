@@ -36,7 +36,7 @@ const Experience = () => {
                     <a href='https://www.hellomixy.com'>
                       <img
                         src={mixy}
-                        className='mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 bg-white'
+                        className='mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 bg-white p-2'
                       />
                     </a>
                     <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
