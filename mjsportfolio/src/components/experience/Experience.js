@@ -31,7 +31,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
+                <li class='mb-4 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <a href='https://www.hellomixy.com'>
                       <img
@@ -124,7 +124,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
+                <li class='mb-4 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <a href='http://www.usapavilion2017.org/'>
                       <img
@@ -212,7 +212,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
+                <li class='mb-4 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <img
                       class='mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56'
@@ -292,7 +292,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
+                <li class='mb-4 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <a href='http://amcham.kz/'>
                       <img
@@ -366,7 +366,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
+                <li class='mb-4 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <a href='https://www.vivintsolar.com/'>
                       <img
@@ -454,7 +454,7 @@ const Experience = () => {
               flipDirection='horizontal'
             >
               <FrontSide>
-                <li class='mb-24 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
+                <li class='mb-4 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
                   <div class='space-y-6 xl:space-y-10'>
                     <a href='https://www.ameriprise.com/'>
                       <img
