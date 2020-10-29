@@ -51,7 +51,7 @@ const Projects = () => {
               <div class='mt-6 flex items-center'>
                 <div class='flex-shrink-0'>
                   <a
-                    href='https://github.com/MichaelSchiumo/my-github-finder/tree/master/Desktop/github-finder'
+                    href='https://github.com/MichaelSchiumo/my-github-finder'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='icons-bar'
