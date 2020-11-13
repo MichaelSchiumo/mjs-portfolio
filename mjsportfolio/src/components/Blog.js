@@ -7,6 +7,9 @@ import gitFlow from '../images/blog/github-flow.jpg';
 import staircase from '../images/blog/staircase.jpg';
 import responsive from '../images/blog/responsive.jpg';
 import lit from '../images/blog/lost_in_translation.jpg';
+import insertAt from '../images/blog/insertAt.jpg';
+import sumof2 from '../images/blog/sumof2.jpg';
+import jsonld from '../images/blog/jsonld.png';
 import Footer from './Footer.js';
 
 const Blog = () => {
@@ -25,7 +28,78 @@ const Blog = () => {
           </p>
         </div>
         <div class='mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none'>
-          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
+          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden border-solid border-4 border:gray-900'>
+            <div class='flex-shrink-0'>
+              <img class='h-48 w-full object-cover' src={insertAt} alt='' />
+            </div>
+            <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
+              <div class='flex-1'>
+                <div class='flex-shrink-0'>
+                  <a href='https://medium.com/@michaeljanschiumo'>
+                    <img
+                      class='h-10 w-10 rounded-full hover:bg-gray-800'
+                      src={medium}
+                      alt=''
+                    />
+                  </a>
+                </div>
+                <div href='#' class='block'>
+                  <h3 class='mt-2 text-md lg:text-lg leading-7 font-bold text-gray-900'>
+                    Algorithms - Linked List, InsertAt
+                  </h3>
+                  <p class='mt-3 text-sm lg:text-base leading-6 text-gray-700'>
+                    In the interest of improving my DS&A skills, I want to
+                    walkthrough a small component of a common problem that a
+                    developer is bound to encounter, either in an interview or
+                    in the wild. Let’s take a look at the insertAt method for
+                    Linked Lists.
+                  </p>
+                </div>
+              </div>
+              <div className='text-center mt-10 lg:mt-6'>
+                <a
+                  className='
+                bg-transparent
+                hover:bg-gray-800
+                text-blue-800
+                font-semibold
+                hover:text-white
+                py-2
+                px-4
+                border
+                border-blue-800
+                hover:border-transparent
+                rounded'
+                  href='https://michaeljanschiumo.medium.com/linked-list-insertat-692af0fc970e?sk=b8ab43551481cc5513ccf98c7fcc5bc4'
+                >
+                  Read more
+                </a>
+              </div>
+              <div class='mt-6 flex items-center'>
+                <div class='flex-shrink-0'>
+                  <a href='https://medium.com/@michaeljanschiumo'>
+                    <img class='h-10 w-10 rounded-full' src={headshot} alt='' />
+                  </a>
+                </div>
+                <div class='ml-3'>
+                  <p class='text-sm leading-5 font-medium text-gray-900'>
+                    <a
+                      href='https://medium.com/@michaeljanschiumo'
+                      class='hover:underline'
+                    >
+                      @michaeljanschiumo
+                    </a>
+                  </p>
+                  <div class='flex text-sm leading-5 text-gray-600'>
+                    <time datetime='2020-03-16'>November 8, 2020</time>
+                    <span class='mx-1'>&middot;</span>
+                    <span>10 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden border-solid border-4'>
             <div class='flex-shrink-0'>
               <img class='h-48 w-full object-contain' src={awsCert} alt='' />
             </div>
@@ -96,7 +170,8 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
+
+          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden border-solid border-4'>
             <div class='flex-shrink-0'>
               <img class='h-48 w-full object-contain' src={psm} alt='' />
             </div>
@@ -167,7 +242,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
+          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden border-solid border-4'>
             <div class='flex-shrink-0'>
               <img class='h-48 w-full object-contain' src={gitFlow} alt='' />
             </div>
@@ -237,9 +312,9 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
+          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden border-solid border-4'>
             <div class='flex-shrink-0'>
-              <img class='h-48 w-full object-contain' src={staircase} alt='' />
+              <img class='h-48 w-full object-cover' src={staircase} alt='' />
             </div>
             <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
               <div class='flex-1'>
@@ -306,7 +381,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
+          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden border-solid border-4'>
             <div class='flex-shrink-0'>
               <img class='h-48 w-full object-contain' src={responsive} alt='' />
             </div>
@@ -376,9 +451,9 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden'>
+          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden border-solid border-4'>
             <div class='flex-shrink-0'>
-              <img class='h-48 w-full object-contain' src={lit} alt='' />
+              <img class='h-48 w-full object-cover' src={lit} alt='' />
             </div>
             <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
               <div class='flex-1'>
@@ -441,6 +516,148 @@ const Blog = () => {
                     <time datetime='2020-03-16'>May 20, 2020</time>
                     <span class='mx-1'>&middot;</span>
                     <span>8 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden border-solid border-4'>
+            <div class='flex-shrink-0'>
+              <img class='h-48 w-full object-covwe' src={sumof2} alt='' />
+            </div>
+            <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
+              <div class='flex-1'>
+                <div class='flex-shrink-0'>
+                  <a href='https://medium.com/@michaeljanschiumo'>
+                    <img
+                      class='h-10 w-10 rounded-full hover:bg-gray-800'
+                      src={medium}
+                      alt=''
+                    />
+                  </a>
+                </div>
+                <div href='#' class='block'>
+                  <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
+                    Algorithms - Sum of 2
+                  </h3>
+                  <p class='mt-3 text-sm lg:text-base leading-6 text-gray-700'>
+                    Given an array of integers nums and an integer target,
+                    return indices of the two numbers such that they add up to
+                    target. You may assume that each input would have exactly
+                    one solution, and you may not use the same element twice.
+                    You can return the answer in any order.
+                  </p>
+                </div>
+              </div>
+              <div className='text-center mt-10 lg:mt-6'>
+                <a
+                  className='
+                bg-transparent
+                hover:bg-gray-800
+                text-blue-800
+                font-semibold
+                hover:text-white
+                py-2
+                px-4
+                border
+                border-blue-800
+                hover:border-transparent
+                rounded'
+                  href='https://michaeljanschiumo.medium.com/sum-of-2-8fcf225c42d2?sk=c7458002267bf29ea202a40a5a0366ed'
+                >
+                  Read more
+                </a>
+              </div>
+              <div class='mt-6 flex items-center'>
+                <div class='flex-shrink-0'>
+                  <a href='https://medium.com/@michaeljanschiumo'>
+                    <img class='h-10 w-10 rounded-full' src={headshot} alt='' />
+                  </a>
+                </div>
+                <div class='ml-3'>
+                  <p class='text-sm leading-5 font-medium text-gray-900'>
+                    <a
+                      href='https://medium.com/@michaeljanschiumo'
+                      class='hover:underline'
+                    >
+                      @michaeljanschiumo
+                    </a>
+                  </p>
+                  <div class='flex text-sm leading-5 text-gray-600'>
+                    <time datetime='2020-03-16'>November 05, 2020</time>
+                    <span class='mx-1'>&middot;</span>
+                    <span>3 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='flex flex-col rounded-lg shadow-lg overflow-hidden border-solid border-4'>
+            <div class='flex-shrink-0'>
+              <img class='h-48 w-full object-covwe' src={jsonld} alt='' />
+            </div>
+            <div class='flex-1 bg-white p-6 flex flex-col justify-between hover:bg-gray-300'>
+              <div class='flex-1'>
+                <div class='flex-shrink-0'>
+                  <a href='https://medium.com/@michaeljanschiumo'>
+                    <img
+                      class='h-10 w-10 rounded-full hover:bg-gray-800'
+                      src={medium}
+                      alt=''
+                    />
+                  </a>
+                </div>
+                <div href='#' class='block'>
+                  <h3 class='mt-2 text-lg leading-7 font-bold text-gray-900'>
+                    SEO and JSON-LD
+                  </h3>
+                  <p class='mt-3 text-sm lg:text-base leading-6 text-gray-700'>
+                    If you have sold, or want to sell, anything online, then you
+                    have probably heard the term Search Engine Optimization.
+                    From targeted ads to URL crawling, there are many ways to
+                    make sure that your business or product is in the coveted #1
+                    position on the SERP (Search Engine Results Page).
+                  </p>
+                </div>
+              </div>
+              <div className='text-center mt-10 lg:mt-6'>
+                <a
+                  className='
+                bg-transparent
+                hover:bg-gray-800
+                text-blue-800
+                font-semibold
+                hover:text-white
+                py-2
+                px-4
+                border
+                border-blue-800
+                hover:border-transparent
+                rounded'
+                  href='https://michaeljanschiumo.medium.com/seo-and-json-ld-bb248267719b?sk=f2e6675e28651c0ab6c84f7e8ea39b7e'
+                >
+                  Read more
+                </a>
+              </div>
+              <div class='mt-6 flex items-center'>
+                <div class='flex-shrink-0'>
+                  <a href='https://medium.com/@michaeljanschiumo'>
+                    <img class='h-10 w-10 rounded-full' src={headshot} alt='' />
+                  </a>
+                </div>
+                <div class='ml-3'>
+                  <p class='text-sm leading-5 font-medium text-gray-900'>
+                    <a
+                      href='https://medium.com/@michaeljanschiumo'
+                      class='hover:underline'
+                    >
+                      @michaeljanschiumo
+                    </a>
+                  </p>
+                  <div class='flex text-sm leading-5 text-gray-600'>
+                    <time datetime='2020-03-16'>September 21, 2020</time>
+                    <span class='mx-1'>&middot;</span>
+                    <span>5 min read</span>
                   </div>
                 </div>
               </div>
