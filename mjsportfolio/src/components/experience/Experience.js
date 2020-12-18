@@ -1,5 +1,6 @@
 import React from 'react';
 import mixy from '../../images/mixy.svg';
+import sm from '../../images/sm-logo.png';
 import usDept from '../../images/dept-state.jpg';
 import bofa2 from '../../images/bofa2.jpg';
 import amcham from '../../images/amcham.jpg';
@@ -25,6 +26,91 @@ const Experience = () => {
             </h2>
           </div>
           <ul class='space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8 rounded'>
+            <Flippy
+              flipOnHover={false}
+              flipOnClick={true}
+              flipDirection='horizontal'
+            >
+              <FrontSide>
+                <li class='mb-4 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
+                  <div class='space-y-6 xl:space-y-10'>
+                    <a href='https://www.simulmedia.com/'>
+                      <img
+                        class='mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56'
+                        src={sm}
+                        alt=''
+                      />
+                    </a>
+                    <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
+                      <div class='font-medium text-lg leading-6 space-y-1'>
+                        <h4 class='text-white'>
+                          Quality Assurance (QA) Engineer
+                        </h4>
+                        <p class='text-indigo-400'>Simulmedia Inc.</p>
+                      </div>
+
+                      <ul class='flex justify-center space-x-5'>
+                        <li>
+                          <a
+                            href='https://www.linkedin.com/company/simulmedia/'
+                            class='text-gray-400 hover:text-gray-300 transition ease-in-out duration-150'
+                          >
+                            <span class='sr-only'>LinkedIn</span>
+                            <svg
+                              class='w-5 h-5'
+                              fill='currentColor'
+                              viewBox='0 0 20 20'
+                            >
+                              <path
+                                fill-rule='evenodd'
+                                d='M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z'
+                                clip-rule='evenodd'
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className='text-center'>
+                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'>
+                        See More
+                      </button>
+                    </div>
+                  </div>
+                </li>
+              </FrontSide>
+              <BackSide>
+                <li class='py-4 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
+                  <div class='space-y-6 xl:space-y-10'>
+                    <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
+                      <div class='font-medium text-lg leading-6 space-y-1'>
+                        <h4 class='text-white mt-2'>10/20 - Present</h4>
+                        <p class='text-indigo-400'>New York, NY</p>
+                      </div>
+                      <ul class='flex justify-center space-x-5'></ul>
+                    </div>
+                  </div>
+                  <div className='text-white lg:mt-6'>
+                    <ul className='list-disc'>
+                      <li className='lg:p-2'>
+                        Develop automated testing scripts for important
+                        performance metrics.
+                      </li>
+                      <li className='lg:p-2'>
+                        Identify and communicate errors and bugs in reporting
+                        framework.
+                      </li>
+                      <li className='lg:p-2'>
+                        Collaborate with senior-level colleagues to expand
+                        testing capabilities and processes.
+                      </li>
+                      <p className='mt-40'></p>
+                    </ul>
+                  </div>
+                </li>
+              </BackSide>
+            </Flippy>
+
             <Flippy
               flipOnHover={false}
               flipOnClick={true}
@@ -443,87 +529,6 @@ const Experience = () => {
                         Generated leads, scheduled appointments, and conducted
                         consultations to drive private solar installations.
                       </li>
-                    </ul>
-                  </div>
-                </li>
-              </BackSide>
-            </Flippy>
-            <Flippy
-              flipOnHover={false}
-              flipOnClick={true}
-              flipDirection='horizontal'
-            >
-              <FrontSide>
-                <li class='mb-4 py-10 px-6 bg-gray-800 text-center rounded-lg lg:mb-0 xl:px-10 xl:text-left'>
-                  <div class='space-y-6 xl:space-y-10'>
-                    <a href='https://www.ameriprise.com/'>
-                      <img
-                        class='mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56'
-                        src={ameriprise}
-                        alt=''
-                      />
-                    </a>
-                    <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
-                      <div class='font-medium text-lg leading-6 space-y-1'>
-                        <h4 class='text-white'>Finance Intern</h4>
-                        <p class='text-indigo-400'>Ameriprise Financial</p>
-                      </div>
-
-                      <ul class='flex justify-center space-x-5'>
-                        <li>
-                          <a
-                            href='https://www.linkedin.com/company/ameriprise-financial-services-llc/'
-                            class='text-gray-400 hover:text-gray-300 transition ease-in-out duration-150'
-                          >
-                            <span class='sr-only'>LinkedIn</span>
-                            <svg
-                              class='w-5 h-5'
-                              fill='currentColor'
-                              viewBox='0 0 20 20'
-                            >
-                              <path
-                                fill-rule='evenodd'
-                                d='M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z'
-                                clip-rule='evenodd'
-                              />
-                            </svg>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className='text-center'>
-                      <button className='bg-gray-300 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'>
-                        See More
-                      </button>
-                    </div>
-                  </div>
-                </li>
-              </FrontSide>
-              <BackSide>
-                <li class='py-4 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left'>
-                  <div class='space-y-6 xl:space-y-10'>
-                    <div class='space-y-2 xl:flex xl:items-center xl:justify-between'>
-                      <div class='font-medium text-lg leading-6 space-y-1'>
-                        <h4 class='text-white mt-2'>09/14 - 10/14</h4>
-                        <p class='text-indigo-400'>Charlotte, NC</p>
-                      </div>
-                      <ul class='flex justify-center space-x-5'></ul>
-                    </div>
-                  </div>
-                  <div className='text-white lg:mt-6'>
-                    <ul className='list-disc'>
-                      <li className='lg:p-2'>
-                        Shadowed a Certified Financial Planning Professional.
-                      </li>
-                      <li className='lg:p-2'>
-                        Utilized software to predict and ensure positive
-                        outcomes for clients.
-                      </li>
-                      <li className='lg:p-2'>
-                        Attended client meetings to better understand financial
-                        strategies.
-                      </li>
-                      <p className='mt-40'></p>
                     </ul>
                   </div>
                 </li>
